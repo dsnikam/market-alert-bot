@@ -5,25 +5,166 @@ formats both a plain-text report (Telegram/WhatsApp) and a styled HTML report
 (the bookmarkable webpage).
 """
 import re
+import os
+import json
+import requests
 from datetime import datetime, date, timezone, timedelta
 from scrape_investorgain import scrape_investorgain
 from scrape_investorzone import fetch_investorzone
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
+# NSE/BSE trading holidays for 2026 (source: official NSE holiday circular).
+# Used as a fallback if the live NSE API fetch fails (which it usually will --
+# NSE's anti-bot protection blocks most automated requests, including from
+# GitHub Actions). Update this set at the start of each year regardless.
+NSE_HOLIDAYS_2026 = {
+    date(2026, 1, 15), date(2026, 1, 26), date(2026, 3, 3), date(2026, 3, 26),
+    date(2026, 3, 31), date(2026, 4, 3), date(2026, 4, 14), date(2026, 5, 1),
+    date(2026, 5, 28), date(2026, 6, 26), date(2026, 9, 14), date(2026, 10, 2),
+    date(2026, 10, 20), date(2026, 11, 10), date(2026, 11, 24), date(2026, 12, 25),
+}
 
-def _is_current(close_date_str):
-    """Keep IPOs that haven't closed yet (or closed very recently, within listing window)."""
-    if not close_date_str:
-        return True
+HARDCODED_HOLIDAYS_BY_YEAR = {2026: NSE_HOLIDAYS_2026}
+
+HOLIDAY_CACHE_PATH = "nse_holidays_cache.json"
+_holiday_cache = {}  # in-memory, per-process only
+
+
+def _load_holiday_cache_file():
+    if not os.path.exists(HOLIDAY_CACHE_PATH):
+        return None
     try:
-        if "-" in close_date_str and close_date_str[:4].isdigit():
-            close_dt = datetime.strptime(close_date_str, "%Y-%m-%d").date()
-        else:
-            close_dt = datetime.strptime(f"{close_date_str}-{date.today().year}", "%d-%b-%Y").date()
-        return close_dt >= date.today()
+        with open(HOLIDAY_CACHE_PATH) as f:
+            data = json.load(f)
+        if data.get("year") and data.get("holidays"):
+            return {
+                "year": data["year"],
+                "source": data.get("source", "unknown"),
+                "holidays": {datetime.strptime(d, "%Y-%m-%d").date() for d in data["holidays"]},
+            }
+    except (json.JSONDecodeError, KeyError, ValueError):
+        pass
+    return None
+
+
+def _save_holiday_cache_file(year, holidays, source):
+    with open(HOLIDAY_CACHE_PATH, "w") as f:
+        json.dump({
+            "year": year,
+            "source": source,
+            "holidays": sorted(d.strftime("%Y-%m-%d") for d in holidays),
+        }, f, indent=2)
+
+
+def _fetch_live_nse_holidays(year):
+    """Tries NSE's official holiday API. Usually blocked by their anti-bot
+    protection from datacenter IPs (incl. GitHub Actions) -- returns None on
+    any failure so the caller can fall back to the hardcoded list."""
+    try:
+        session = requests.Session()
+        session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+            "Accept": "application/json, text/plain, */*",
+        })
+        session.get("https://www.nseindia.com", timeout=10)
+        resp = session.get("https://www.nseindia.com/api/holiday-master?type=trading", timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+        holidays = set()
+        for item in data.get("CM", []):
+            d = datetime.strptime(item["tradingDate"], "%d-%b-%Y").date()
+            if d.year == year:
+                holidays.add(d)
+        return holidays or None
+    except Exception as e:
+        print(f"[holidays] Live NSE fetch failed ({e}).")
+        return None
+
+
+def _get_nse_holidays(year):
+    # 1) Already resolved earlier in this same process run
+    if year in _holiday_cache:
+        return _holiday_cache[year]
+
+    # 2) Cache file on disk -- only usable if its year matches what we need
+    cached = _load_holiday_cache_file()
+    if cached and cached["year"] == year:
+        print(f"[holidays] Using cached {year} holiday list ({cached['source']}, "
+              f"{len(cached['holidays'])} dates) -- no fetch needed.")
+        _holiday_cache[year] = cached["holidays"]
+        return cached["holidays"]
+
+    # 3) Cache is missing or stale for this year -- attempt a live fetch
+    print(f"[holidays] No cached data for {year} -- attempting live NSE fetch...")
+    holidays = _fetch_live_nse_holidays(year)
+    if holidays:
+        print(f"[holidays] Live fetch succeeded ({len(holidays)} dates) -- updating cache.")
+        _save_holiday_cache_file(year, holidays, source="live")
+        _holiday_cache[year] = holidays
+        return holidays
+
+    # 4) Live fetch failed -- fall back to a hardcoded list if we have one for this year
+    if year in HARDCODED_HOLIDAYS_BY_YEAR:
+        holidays = HARDCODED_HOLIDAYS_BY_YEAR[year]
+        print(f"[holidays] Falling back to hardcoded {year} list ({len(holidays)} dates) -- updating cache.")
+        _save_holiday_cache_file(year, holidays, source="hardcoded")
+        _holiday_cache[year] = holidays
+        return holidays
+
+    # 5) Nothing available at all -- warn loudly, don't cache, so it retries next run
+    print(f"[holidays] WARNING: no holiday data available for {year} -- "
+          f"add a hardcoded NSE_HOLIDAYS_{year} set in build_report.py.")
+    _holiday_cache[year] = set()
+    return set()
+
+
+def _parse_date_str(d):
+    """Parses a date string in either 'YYYY-MM-DD' or 'DD-Mon' form. Returns None if unparseable."""
+    if not d:
+        return None
+    try:
+        if "-" in d and d[:4].isdigit():
+            return datetime.strptime(d, "%Y-%m-%d").date()
+        return datetime.strptime(f"{d}-{date.today().year}", "%d-%b-%Y").date()
     except ValueError:
-        return True
+        return None
+
+
+def _add_working_days(start, n):
+    """Adds n NSE/BSE working days to start, skipping weekends and market holidays."""
+    d = start
+    added = 0
+    while added < n:
+        d += timedelta(days=1)
+        if d.weekday() < 5 and d not in _get_nse_holidays(d.year):
+            added += 1
+    return d
+
+
+def _calculate_refund_date(close_str):
+    """Refund initiation is generally close date + 2 NSE/BSE working days."""
+    close_dt = _parse_date_str(close_str)
+    if close_dt is None:
+        return None
+    return _add_working_days(close_dt, 2).strftime("%d-%b")
+
+
+def _is_current(entry):
+    """
+    Keep IPOs up through their refund date -- i.e. drop an IPO once its refund
+    date has passed. Falls back to the close date if no refund date is available
+    (InvestorZone-only entries don't have one).
+    """
+    today = date.today()
+    refund_dt = _parse_date_str(entry.get("refund"))
+    if refund_dt is not None:
+        return refund_dt >= today
+    close_dt = _parse_date_str(entry.get("close"))
+    if close_dt is not None:
+        return close_dt >= today
+    return True  # no dates at all -- keep rather than accidentally drop
 
 
 def _normalize_name(name):
@@ -50,18 +191,10 @@ def _best_gmp(entry):
     return max(vals) if vals else 0
 
 
-def _parse_close(c):
-    try:
-        if "-" in c and c[:4].isdigit():
-            return datetime.strptime(c, "%Y-%m-%d").date()
-        return datetime.strptime(f"{c}-{date.today().year}", "%d-%b-%Y").date()
-    except (ValueError, TypeError):
-        return date.max
-
-
 def _sort_key(v):
     # Ascending close date, then descending best-available GMP% within the same date
-    return (_parse_close(v.get("close") or ""), -_best_gmp(v))
+    close_dt = _parse_date_str(v.get("close")) or date.max
+    return (close_dt, -_best_gmp(v))
 
 
 def build_merged_data(min_gmp_pct=10):
@@ -76,7 +209,6 @@ def build_merged_data(min_gmp_pct=10):
         merged[key]["is_sme"] = row.get("is_sme", False)
         merged[key]["open"] = row.get("open")
         merged[key]["close"] = row.get("close")
-        merged[key]["refund"] = row.get("refund")
 
     for row in iz_data:
         key = _normalize_name(row["name"])
@@ -85,17 +217,22 @@ def build_merged_data(min_gmp_pct=10):
         merged[key].setdefault("is_sme", row.get("is_sme", False))
         merged[key].setdefault("open", row.get("open"))
         merged[key].setdefault("close", row.get("close"))
-        merged[key].setdefault("refund", None)  # investorzone doesn't expose refund date
 
-    # Keep only: still-current (not yet closed), mainboard (not SME), best GMP % above threshold
+    # Refund date is always calculated (close date + 2 NSE/BSE working days),
+    # not scraped -- this is consistent regardless of which source(s) had the IPO.
+    for v in merged.values():
+        v["refund"] = _calculate_refund_date(v.get("close"))
+
+    # Keep only: still-current (not past refund date), mainboard (not SME), best GMP % above threshold
     current = [
         v for v in merged.values()
-        if _is_current(v.get("close"))
+        if _is_current(v)
         and not v.get("is_sme")
         and _best_gmp(v) > min_gmp_pct
     ]
     current.sort(key=_sort_key)
     return current
+
 
 
 def format_report(entries, min_gmp_pct=10):
@@ -128,7 +265,19 @@ def format_report(entries, min_gmp_pct=10):
 
 def format_html_report(entries, min_gmp_pct=10):
     """Styled HTML report for the bookmarkable GitHub Pages webpage."""
-    generated_at = datetime.now(timezone.utc).astimezone(IST).strftime("%d %b %Y, %H:%M IST")
+    now_ist = datetime.now(timezone.utc).astimezone(IST)
+    generated_at = now_ist.strftime("%d %b %Y, %H:%M IST")
+
+    def is_closed(entry):
+        """True once close date has passed, or it's closing today past 17:00 IST."""
+        close_dt = _parse_date_str(entry.get("close"))
+        if close_dt is None:
+            return False
+        if close_dt < now_ist.date():
+            return True
+        if close_dt == now_ist.date() and now_ist.hour >= 17:
+            return True
+        return False
 
     def gmp_num(pct_str):
         v = _gmp_value(pct_str)
@@ -142,12 +291,14 @@ def format_html_report(entries, min_gmp_pct=10):
     for e in entries:
         ig = e.get("ig_gmp_pct") or "N/A"
         iz = e.get("iz_gmp_pct") or "N/A"
+        closed_class = " closed" if is_closed(e) else ""
+        closed_tag = '<span class="closed-tag">CLOSED</span>' if is_closed(e) else ""
         cards += f"""
-        <div class="slip">
+        <div class="slip{closed_class}">
           <div class="perf"></div>
           <div class="slip-body">
             <div class="slip-main">
-              <h2>{e['name']}</h2>
+              <h2>{e['name']} {closed_tag}</h2>
               <div class="dates">
                 <span><b>Open</b> {e.get('open') or '—'}</span>
                 <span><b>Close</b> {e.get('close') or '—'}</span>
@@ -227,6 +378,21 @@ def format_html_report(entries, min_gmp_pct=10):
   }}
   .slip:nth-child(odd) {{ transform: rotate(-0.3deg); }}
   .slip:nth-child(even) {{ transform: rotate(0.3deg); }}
+  .slip.closed {{
+    opacity: 0.5;
+    filter: grayscale(70%);
+  }}
+  .closed-tag {{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.62rem;
+    font-weight: 700;
+    color: #fff;
+    background: #6b6558;
+    padding: 2px 6px;
+    border-radius: 3px;
+    letter-spacing: 0.06em;
+    vertical-align: middle;
+  }}
   @keyframes rise {{ from {{ opacity: 0; transform: translateY(6px); }} to {{ opacity: 1; }} }}
   @media (prefers-reduced-motion: reduce) {{ .slip {{ animation: none; }} }}
   .perf {{
@@ -323,4 +489,3 @@ def format_html_report(entries, min_gmp_pct=10):
 if __name__ == "__main__":
     data = build_merged_data()
     print(format_report(data))
-    
