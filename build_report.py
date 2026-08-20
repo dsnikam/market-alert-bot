@@ -5,9 +5,11 @@ formats both a plain-text report (Telegram/WhatsApp) and a styled HTML report
 (the bookmarkable webpage).
 """
 import re
-from datetime import datetime, date
+from datetime import datetime, date, timezone, timedelta
 from scrape_investorgain import scrape_investorgain
 from scrape_investorzone import fetch_investorzone
+
+IST = timezone(timedelta(hours=5, minutes=30))
 
 
 def _is_current(close_date_str):
@@ -98,7 +100,7 @@ def build_merged_data(min_gmp_pct=10):
 
 def format_report(entries, min_gmp_pct=10):
     """Plain-text report for Telegram / WhatsApp."""
-    today = datetime.now().strftime("%d %b %Y")
+    today = datetime.now(timezone.utc).astimezone(IST).strftime("%d %b %Y")
     lines = [f"*IPO GMP Report (Mainboard, GMP > {min_gmp_pct}%) — {today}*", ""]
 
     if not entries:
@@ -126,7 +128,7 @@ def format_report(entries, min_gmp_pct=10):
 
 def format_html_report(entries, min_gmp_pct=10):
     """Styled HTML report for the bookmarkable GitHub Pages webpage."""
-    generated_at = datetime.now().strftime("%d %b %Y, %H:%M")
+    generated_at = datetime.now(timezone.utc).astimezone(IST).strftime("%d %b %Y, %H:%M IST")
 
     def gmp_num(pct_str):
         v = _gmp_value(pct_str)
@@ -321,3 +323,4 @@ def format_html_report(entries, min_gmp_pct=10):
 if __name__ == "__main__":
     data = build_merged_data()
     print(format_report(data))
+    
