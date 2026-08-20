@@ -2,7 +2,7 @@ name: Daily IPO GMP Report
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "20 10 * * *"
   workflow_dispatch: {}
 
 jobs:
