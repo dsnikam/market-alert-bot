@@ -31,17 +31,32 @@ def _normalize_name(name):
     return name
 
 
+def _gmp_value(gmp_pct_str):
+    """Parses '21.67%' -> 21.67. Returns None if missing/unparseable."""
+    if not gmp_pct_str:
+        return None
+    try:
+        return float(gmp_pct_str.replace("%", "").strip())
+    except ValueError:
+        return None
+
+
 def _sort_key(v):
     c = v.get("close") or ""
     try:
         if "-" in c and c[:4].isdigit():
-            return datetime.strptime(c, "%Y-%m-%d").date()
-        return datetime.strptime(f"{c}-{date.today().year}", "%d-%b-%Y").date()
+            close_dt = datetime.strptime(c, "%Y-%m-%d").date()
+        else:
+            close_dt = datetime.strptime(f"{c}-{date.today().year}", "%d-%b-%Y").date()
     except ValueError:
-        return date.max
+        close_dt = date.max
+
+    gmp = _gmp_value(v.get("gmp_pct")) or 0
+    # Ascending close date, then descending GMP% within the same date
+    return (close_dt, -gmp)
 
 
-def build_merged_data():
+def build_merged_data(min_gmp_pct=10):
     ig_data = scrape_investorgain()
     iz_data = fetch_investorzone()
 
@@ -64,18 +79,23 @@ def build_merged_data():
         merged[key].setdefault("close", row.get("close"))
         merged[key].setdefault("refund", None)  # investorzone doesn't expose refund date
 
-    # Keep only: still-current (not yet closed) AND mainboard (not SME)
-    current = [v for v in merged.values() if _is_current(v.get("close")) and not v.get("is_sme")]
+    # Keep only: still-current (not yet closed), mainboard (not SME), GMP % above threshold
+    current = [
+        v for v in merged.values()
+        if _is_current(v.get("close"))
+        and not v.get("is_sme")
+        and (_gmp_value(v.get("gmp_pct")) or 0) > min_gmp_pct
+    ]
     current.sort(key=_sort_key)
     return current
 
 
-def format_report(entries):
+def format_report(entries, min_gmp_pct=10):
     today = datetime.now().strftime("%d %b %Y")
-    lines = [f"*IPO GMP Report (Mainboard) — {today}*", ""]
+    lines = [f"*IPO GMP Report (Mainboard, GMP > {min_gmp_pct}%) — {today}*", ""]
 
     if not entries:
-        lines.append("No active mainboard IPOs with GMP data right now.")
+        lines.append(f"No active mainboard IPOs with GMP above {min_gmp_pct}% right now.")
         return "\n".join(lines)
 
     for e in entries:
@@ -99,3 +119,4 @@ def format_report(entries):
 if __name__ == "__main__":
     data = build_merged_data()
     print(format_report(data))
+    
