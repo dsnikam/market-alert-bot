@@ -52,6 +52,8 @@ def fetch_investorzone():
             "source": "InvestorZone",
             "name": ipo["ipo_name"].strip(),
             "gmp": f"₹{gmp_val} ({gmp_pct}%)" if gmp_val is not None else "N/A",
+            "gmp_pct": f"{gmp_pct}%" if gmp_pct is not None else None,
+            "is_sme": (ipo.get("category") == "sme"),
             "price": price,
             "open": ipo.get("open_date"),
             "close": ipo.get("close_date"),

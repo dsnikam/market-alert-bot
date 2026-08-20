@@ -79,7 +79,38 @@ Once that works, you're done — it'll run automatically every day at 08:30 IST.
 
 ---
 
-## Running it locally first (optional, to test before pushing to GitHub)
+## `/fetch` command (on-demand live report via Telegram)
+
+Message your bot `/fetch` anytime and it'll reply with a fresh, live-scraped mainboard
+IPO GMP report — no need to wait for the daily 08:30 run.
+
+**How it works:** Telegram has no way to "push" a message to a script that isn't
+always running, so a second workflow (`telegram_listener.yml`) checks every 5 minutes
+whether you've sent `/fetch` since the last check, and if so, runs the report and
+replies. This means there can be up to a ~5 minute delay before it notices your message
+— that's the trade-off for staying serverless and free.
+
+**Nothing extra to set up** — it uses the same `TELEGRAM_BOT_TOKEN` and
+`TELEGRAM_CHAT_ID` secrets you already added. It's enabled automatically once you
+push `telegram_listener.py`, `offset.txt`, and `.github/workflows/telegram_listener.yml`
+to your repo.
+
+One extra thing this workflow needs: **Settings → Actions → General → Workflow
+permissions → set to "Read and write permissions"** — it needs write access to
+commit the small `offset.txt` file that tracks which Telegram messages it's already
+handled (otherwise it would re-reply to the same `/fetch` every 5 minutes forever).
+
+---
+
+## Report format
+
+Both the daily scheduled report and the `/fetch` on-demand report use the same format:
+mainboard IPOs only (SME IPOs are excluded), showing just IPO name, GMP %, open date,
+close date, and refund date.
+
+---
+
+
 
 ```bash
 pip install requests playwright

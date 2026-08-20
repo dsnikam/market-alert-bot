@@ -7,18 +7,16 @@ from playwright.sync_api import sync_playwright
 
 URL = "https://www.investorgain.com/report/live-ipo-gmp/331/nonzero/"  # "Only Active GMP" view
 
-# Status suffixes appended to the IPO name in the NAME column (order matters: longest first)
-_STATUS_SUFFIXES = ["CT", "U", "O", "C"]
+
+def _is_sme(raw_name):
+    return "SME" in raw_name
 
 
 def _clean_name(raw):
     name = raw
-    # Drop "L@<price> (<pct>%)" listed-price suffix if present
     name = re.sub(r"L@[\d.]+\s*\([-\d.]+%\)\s*$", "", name).strip()
-    # Drop "ALLOTTED" marker
     name = re.sub(r"ALLOTTED\s*$", "", name).strip()
-    # Drop trailing single-letter status flags (U=upcoming, O=open, C=closed, CT=closing today)
-    for suf in _STATUS_SUFFIXES:
+    for suf in ["CT", "U", "O", "C"]:
         if name.endswith(suf):
             name = name[: -len(suf)].strip()
             break
@@ -26,8 +24,12 @@ def _clean_name(raw):
 
 
 def _clean_date(raw):
-    # Date cells sometimes carry a "\nGMP: n" tooltip line — keep only the date itself
     return raw.split("\n")[0].strip()
+
+
+def _extract_gmp_pct(gmp_line):
+    m = re.search(r"\(([-\d.]+)%\)", gmp_line)
+    return f"{m.group(1)}%" if m else None
 
 
 def scrape_investorgain():
@@ -40,24 +42,27 @@ def scrape_investorgain():
             page.wait_for_selector("table tbody tr", timeout=20000)
         except Exception:
             browser.close()
-            return results  # no active GMP rows right now
+            return results
 
-        page.wait_for_timeout(1500)  # let all rows settle
+        page.wait_for_timeout(1500)
         rows = page.query_selector_all("table tbody tr")
         for row in rows:
             cells = row.query_selector_all("td")
             if len(cells) < 11:
                 continue
             texts = [c.inner_text().strip() for c in cells]
-            gmp_block = texts[1]  # e.g. "₹30 (29.70%)\n20 ↓ / 30 ↑"
-            gmp_line = gmp_block.split("\n")[0].strip()
+            # Columns: NAME(0) GMP(1) RATING(2) SUB(3) PRICE(4) IPO SIZE(5) LOT(6)
+            #          OPEN(7) CLOSE(8) BOA DT / REFUND(9) LISTING(10) UPDATED-ON(11) ANCHOR(12)
+            raw_name = texts[0]
+            gmp_line = texts[1].split("\n")[0].strip()
             results.append({
                 "source": "InvestorGain",
-                "name": _clean_name(texts[0]),
-                "gmp": gmp_line,
-                "price": texts[4],
+                "name": _clean_name(raw_name),
+                "is_sme": _is_sme(raw_name),
+                "gmp_pct": _extract_gmp_pct(gmp_line),
                 "open": _clean_date(texts[7]),
                 "close": _clean_date(texts[8]),
+                "refund": _clean_date(texts[9]),
                 "listing": _clean_date(texts[10]),
             })
         browser.close()

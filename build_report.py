@@ -1,6 +1,7 @@
 """
-Merges IPO GMP data from InvestorGain + InvestorZone (matched by name)
-and formats a single readable report for Telegram/WhatsApp.
+Merges IPO GMP data from InvestorGain + InvestorZone (matched by name),
+filters to mainboard IPOs only, and formats a minimal daily report showing
+just: name, GMP %, open date, close date, refund date.
 """
 import re
 from datetime import datetime, date
@@ -11,9 +12,8 @@ from scrape_investorzone import fetch_investorzone
 def _is_current(close_date_str):
     """Keep IPOs that haven't closed yet (or closed very recently, within listing window)."""
     if not close_date_str:
-        return True  # unknown -> keep, better to over-include than miss one
+        return True
     try:
-        # investorzone dates are ISO (YYYY-MM-DD); investorgain dates are like "24-Aug"
         if "-" in close_date_str and close_date_str[:4].isdigit():
             close_dt = datetime.strptime(close_date_str, "%Y-%m-%d").date()
         else:
@@ -31,6 +31,16 @@ def _normalize_name(name):
     return name
 
 
+def _sort_key(v):
+    c = v.get("close") or ""
+    try:
+        if "-" in c and c[:4].isdigit():
+            return datetime.strptime(c, "%Y-%m-%d").date()
+        return datetime.strptime(f"{c}-{date.today().year}", "%d-%b-%Y").date()
+    except ValueError:
+        return date.max
+
+
 def build_merged_data():
     ig_data = scrape_investorgain()
     iz_data = fetch_investorzone()
@@ -39,58 +49,45 @@ def build_merged_data():
     for row in ig_data:
         key = _normalize_name(row["name"])
         merged.setdefault(key, {"name": row["name"]})
-        merged[key]["investorgain_gmp"] = row["gmp"]
-        merged[key]["price"] = row.get("price")
+        merged[key]["gmp_pct"] = row.get("gmp_pct")
+        merged[key]["is_sme"] = row.get("is_sme", False)
         merged[key]["open"] = row.get("open")
         merged[key]["close"] = row.get("close")
-        merged[key]["listing"] = row.get("listing")
+        merged[key]["refund"] = row.get("refund")
 
     for row in iz_data:
         key = _normalize_name(row["name"])
         merged.setdefault(key, {"name": row["name"]})
-        merged[key]["investorzone_gmp"] = row["gmp"]
-        merged[key].setdefault("price", row.get("price"))
+        merged[key].setdefault("gmp_pct", row.get("gmp_pct"))
+        merged[key].setdefault("is_sme", row.get("is_sme", False))
         merged[key].setdefault("open", row.get("open"))
         merged[key].setdefault("close", row.get("close"))
-        merged[key].setdefault("listing", row.get("listing"))
+        merged[key].setdefault("refund", None)  # investorzone doesn't expose refund date
 
-    # Keep only IPOs that are still open/upcoming (drop stale already-closed entries)
-    current = [v for v in merged.values() if _is_current(v.get("close"))]
-
-    def sort_key(v):
-        c = v.get("close") or ""
-        try:
-            if "-" in c and c[:4].isdigit():
-                return datetime.strptime(c, "%Y-%m-%d").date()
-            return datetime.strptime(f"{c}-{date.today().year}", "%d-%b-%Y").date()
-        except ValueError:
-            return date.max
-
-    current.sort(key=sort_key)
+    # Keep only: still-current (not yet closed) AND mainboard (not SME)
+    current = [v for v in merged.values() if _is_current(v.get("close")) and not v.get("is_sme")]
+    current.sort(key=_sort_key)
     return current
 
 
 def format_report(entries):
     today = datetime.now().strftime("%d %b %Y")
-    lines = [f"*IPO GMP Report — {today}*", ""]
+    lines = [f"*IPO GMP Report (Mainboard) — {today}*", ""]
 
     if not entries:
-        lines.append("No active IPOs with GMP data right now.")
+        lines.append("No active mainboard IPOs with GMP data right now.")
         return "\n".join(lines)
 
     for e in entries:
         lines.append(f"*{e['name']}*")
-        if e.get("investorgain_gmp"):
-            lines.append(f"  InvestorGain: {e['investorgain_gmp']}")
-        if e.get("investorzone_gmp"):
-            lines.append(f"  InvestorZone: {e['investorzone_gmp']}")
+        lines.append(f"  GMP: {e.get('gmp_pct') or 'N/A'}")
         details = []
         if e.get("open"):
             details.append(f"Open: {e['open']}")
         if e.get("close"):
             details.append(f"Close: {e['close']}")
-        if e.get("listing"):
-            details.append(f"Listing: {e['listing']}")
+        if e.get("refund"):
+            details.append(f"Refund: {e['refund']}")
         if details:
             lines.append("  " + " | ".join(details))
         lines.append("")
