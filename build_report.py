@@ -1,0 +1,104 @@
+"""
+Merges IPO GMP data from InvestorGain + InvestorZone (matched by name)
+and formats a single readable report for Telegram/WhatsApp.
+"""
+import re
+from datetime import datetime, date
+from scrape_investorgain import scrape_investorgain
+from scrape_investorzone import fetch_investorzone
+
+
+def _is_current(close_date_str):
+    """Keep IPOs that haven't closed yet (or closed very recently, within listing window)."""
+    if not close_date_str:
+        return True  # unknown -> keep, better to over-include than miss one
+    try:
+        # investorzone dates are ISO (YYYY-MM-DD); investorgain dates are like "24-Aug"
+        if "-" in close_date_str and close_date_str[:4].isdigit():
+            close_dt = datetime.strptime(close_date_str, "%Y-%m-%d").date()
+        else:
+            close_dt = datetime.strptime(f"{close_date_str}-{date.today().year}", "%d-%b-%Y").date()
+        return close_dt >= date.today()
+    except ValueError:
+        return True
+
+
+def _normalize_name(name):
+    name = name.lower()
+    name = re.sub(r"\bipo\b", "", name)
+    name = re.sub(r"\b(bse|nse)?\s*sme\b", "", name)
+    name = re.sub(r"[^a-z0-9]", "", name)
+    return name
+
+
+def build_merged_data():
+    ig_data = scrape_investorgain()
+    iz_data = fetch_investorzone()
+
+    merged = {}
+    for row in ig_data:
+        key = _normalize_name(row["name"])
+        merged.setdefault(key, {"name": row["name"]})
+        merged[key]["investorgain_gmp"] = row["gmp"]
+        merged[key]["price"] = row.get("price")
+        merged[key]["open"] = row.get("open")
+        merged[key]["close"] = row.get("close")
+        merged[key]["listing"] = row.get("listing")
+
+    for row in iz_data:
+        key = _normalize_name(row["name"])
+        merged.setdefault(key, {"name": row["name"]})
+        merged[key]["investorzone_gmp"] = row["gmp"]
+        merged[key].setdefault("price", row.get("price"))
+        merged[key].setdefault("open", row.get("open"))
+        merged[key].setdefault("close", row.get("close"))
+        merged[key].setdefault("listing", row.get("listing"))
+
+    # Keep only IPOs that are still open/upcoming (drop stale already-closed entries)
+    current = [v for v in merged.values() if _is_current(v.get("close"))]
+
+    def sort_key(v):
+        c = v.get("close") or ""
+        try:
+            if "-" in c and c[:4].isdigit():
+                return datetime.strptime(c, "%Y-%m-%d").date()
+            return datetime.strptime(f"{c}-{date.today().year}", "%d-%b-%Y").date()
+        except ValueError:
+            return date.max
+
+    current.sort(key=sort_key)
+    return current
+
+
+def format_report(entries):
+    today = datetime.now().strftime("%d %b %Y")
+    lines = [f"*IPO GMP Report — {today}*", ""]
+
+    if not entries:
+        lines.append("No active IPOs with GMP data right now.")
+        return "\n".join(lines)
+
+    for e in entries:
+        lines.append(f"*{e['name']}*")
+        if e.get("investorgain_gmp"):
+            lines.append(f"  InvestorGain: {e['investorgain_gmp']}")
+        if e.get("investorzone_gmp"):
+            lines.append(f"  InvestorZone: {e['investorzone_gmp']}")
+        details = []
+        if e.get("open"):
+            details.append(f"Open: {e['open']}")
+        if e.get("close"):
+            details.append(f"Close: {e['close']}")
+        if e.get("listing"):
+            details.append(f"Listing: {e['listing']}")
+        if details:
+            lines.append("  " + " | ".join(details))
+        lines.append("")
+
+    lines.append("_Source: investorgain.com, investorzone.in — informational only, not investment advice._")
+    return "\n".join(lines)
+
+
+if __name__ == "__main__":
+    data = build_merged_data()
+    print(format_report(data))
