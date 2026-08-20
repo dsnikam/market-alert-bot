@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 20 Aug 2026*
 
 *Sunshine Pictures IPO*
-  InvestorGain: 21.67%
+  InvestorGain: 22.22%
   InvestorZone: 21.39%
   Open: 18-Aug | Close: 20-Aug | Refund: 21-Aug
 
@@ -20,14 +20,14 @@
   InvestorZone: 35.53%
   Open: 21-Aug | Close: 25-Aug | Refund: 27-Aug
 
+*Hy-Tech Engineers IPO*
+  InvestorGain: 41.51%
+  InvestorZone: 9.43%
+  Open: 24-Aug | Close: 27-Aug | Refund: 28-Aug
+
 *Skyways Air IPO*
   InvestorGain: 36.23%
   InvestorZone: 30.43%
-  Open: 24-Aug | Close: 27-Aug | Refund: 28-Aug
-
-*Hy-Tech Engineers IPO*
-  InvestorGain: 30.19%
-  InvestorZone: 9.43%
   Open: 24-Aug | Close: 27-Aug | Refund: 28-Aug
 
 *Symbiotec Pharmalab IPO*
