@@ -2,8 +2,8 @@ name: Scrape & Publish Latest IPO GMP Data
 
 on:
   schedule:
-    # Every 10 minutes -- decoupled from Telegram entirely, just keeps the cache fresh
-    - cron: "*/10 * * * *"
+    # Every 30 minutes
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/latest_report.txt docs/index.html
+          git add docs/latest_report.txt docs/index.html nse_holidays_cache.json
           git diff --staged --quiet || git commit -m "Update latest IPO GMP data [skip ci]"
           git push
