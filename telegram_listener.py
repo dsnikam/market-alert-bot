@@ -1,6 +1,8 @@
 """
-Polls Telegram for new messages and responds to /fetch with a freshly-generated
-live report. Designed to run every few minutes via GitHub Actions (see
+Polls Telegram for new messages and responds to /fetch by sending the cached
+report (written by scraper.py, refreshed every 10 minutes) -- no live scraping
+happens here, so the reply goes out in a second or two once this workflow runs.
+Designed to run every few minutes via GitHub Actions (see
 .github/workflows/telegram_listener.yml) since there's no always-on server.
 
 State (which updates have already been handled) is tracked in offset.txt,
@@ -8,10 +10,10 @@ which this script updates and the workflow commits back to the repo.
 """
 import os
 import requests
-from build_report import build_merged_data, format_report
 from send_telegram import send_telegram_message
 
 OFFSET_FILE = "offset.txt"
+CACHED_REPORT_PATH = os.path.join("docs", "latest_report.txt")
 
 
 def _read_offset():
@@ -25,6 +27,13 @@ def _read_offset():
 def _write_offset(offset):
     with open(OFFSET_FILE, "w") as f:
         f.write(str(offset))
+
+
+def _read_cached_report():
+    if not os.path.exists(CACHED_REPORT_PATH):
+        return "No cached report available yet -- the scraper hasn't run yet. Try again shortly."
+    with open(CACHED_REPORT_PATH) as f:
+        return f.read()
 
 
 def main():
@@ -55,11 +64,10 @@ def main():
             continue
 
         if text.startswith("/fetch"):
-            print("Received /fetch — generating live report...")
-            data = build_merged_data()
-            report = format_report(data)
+            print("Received /fetch -- sending cached report...")
+            report = _read_cached_report()
             send_telegram_message(report, bot_token=bot_token, chat_id=my_chat_id)
-            print("Sent live report.")
+            print("Sent cached report.")
         else:
             print(f"Ignoring non-command message: {text!r}")
 
@@ -68,3 +76,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
