@@ -6,7 +6,7 @@
   Open: 17-Aug | Close: 19-Aug | Refund: 21-Aug
 
 *Sunshine Pictures IPO*
-  InvestorGain: 15.28%
+  InvestorGain: 17.22%
   InvestorZone: 21.39%
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
@@ -16,7 +16,7 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 95.67%
+  InvestorGain: 96.67%
   InvestorZone: 91.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
 
