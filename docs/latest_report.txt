@@ -6,7 +6,7 @@
   Open: 17-Aug | Close: 19-Aug | Refund: 21-Aug
 
 *Sunshine Pictures IPO*
-  InvestorGain: 19.44%
+  InvestorGain: 15.28%
   InvestorZone: 21.39%
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
@@ -31,7 +31,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 34.41%
+  InvestorGain: 34.92%
   InvestorZone: 32.39%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
