@@ -30,14 +30,14 @@
   InvestorZone: 9.43%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
-*Skyways Air IPO*
-  InvestorGain: 36.23%
-  InvestorZone: 30.43%
+*Symbiotec Pharmalab IPO*
+  InvestorGain: 32.39%
+  InvestorZone: 22.27%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
-*Symbiotec Pharmalab IPO*
-  InvestorGain: 30.36%
-  InvestorZone: 22.27%
+*Skyways Air IPO*
+  InvestorGain: 30.43%
+  InvestorZone: 30.43%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
