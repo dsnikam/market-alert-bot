@@ -11,7 +11,7 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 9.38%
+  InvestorGain: 10.31%
   InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
@@ -30,18 +30,18 @@
   InvestorZone: 41.51%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
+*Symbiotec Pharmalab IPO*
+  InvestorGain: 33.40%
+  InvestorZone: 32.39%
+  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
+
 *Skyways Air IPO*
   InvestorGain: 32.61%
   InvestorZone: 30.43%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
-*Symbiotec Pharmalab IPO*
-  InvestorGain: 32.39%
-  InvestorZone: 32.39%
-  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
-
 *Lumino Industries IPO*
-  InvestorGain: 54.88%
+  InvestorGain: 52.44%
   InvestorZone: 0.0%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep
 
