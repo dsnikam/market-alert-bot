@@ -1,43 +1,48 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 21 Aug 2026*
 
 *Lalithaa Jewellery Mart IPO*
-  InvestorGain: 29.35%
+  InvestorGain: 28.86%
   InvestorZone: 19.9%
   Open: 17-Aug | Close: 19-Aug | Refund: 21-Aug
 
 *Sunshine Pictures IPO*
-  InvestorGain: 21.67%
+  InvestorGain: 20.83%
   InvestorZone: 21.39%
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 10.62%
-  InvestorZone: 14.37%
+  InvestorGain: 8.12%
+  InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
 *Tempsens Instruments (India) IPO*
   InvestorGain: 91.33%
-  InvestorZone: 73.33%
+  InvestorZone: 91.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
 
 *Augmont Enterprises IPO*
   InvestorGain: 38.07%
-  InvestorZone: 35.53%
+  InvestorZone: 38.07%
   Open: 21-Aug | Close: 25-Aug | Refund: 27-Aug
 
 *Hy-Tech Engineers IPO*
   InvestorGain: 41.51%
-  InvestorZone: 9.43%
+  InvestorZone: 41.51%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Symbiotec Pharmalab IPO*
   InvestorGain: 32.39%
-  InvestorZone: 22.27%
+  InvestorZone: 32.39%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Skyways Air IPO*
   InvestorGain: 30.43%
   InvestorZone: 30.43%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
+
+*Lumino Industries IPO*
+  InvestorGain: 22.56%
+  InvestorZone: 0.0%
+  Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
