@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 21 Aug 2026*
 
 *Lalithaa Jewellery Mart IPO*
-  InvestorGain: 27.36%
+  InvestorGain: 31.34%
   InvestorZone: 19.9%
   Open: 17-Aug | Close: 19-Aug | Refund: 21-Aug
 
@@ -11,12 +11,12 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 11.25%
+  InvestorGain: 11.88%
   InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 94.00%
+  InvestorGain: 95.67%
   InvestorZone: 91.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
 
@@ -31,7 +31,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 33.40%
+  InvestorGain: 34.41%
   InvestorZone: 32.39%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
