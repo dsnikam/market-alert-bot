@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 21 Aug 2026*
 
 *Lalithaa Jewellery Mart IPO*
-  InvestorGain: 26.37%
+  InvestorGain: 27.36%
   InvestorZone: 19.9%
   Open: 17-Aug | Close: 19-Aug | Refund: 21-Aug
 
@@ -11,12 +11,12 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 10.31%
+  InvestorGain: 11.25%
   InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 92.33%
+  InvestorGain: 94.00%
   InvestorZone: 91.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
 
@@ -41,7 +41,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Lumino Industries IPO*
-  InvestorGain: 54.88%
+  InvestorGain: 56.10%
   InvestorZone: 0.0%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep
 
