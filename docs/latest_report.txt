@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 21 Aug 2026*
 
 *Lalithaa Jewellery Mart IPO*
-  InvestorGain: 30.35%
+  InvestorGain: 29.85%
   InvestorZone: 19.9%
   Open: 17-Aug | Close: 19-Aug | Refund: 21-Aug
 
@@ -11,7 +11,7 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 11.25%
+  InvestorGain: 11.56%
   InvestorZone: 14.37%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
