@@ -21,7 +21,7 @@
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 38.07%
+  InvestorGain: 39.34%
   InvestorZone: 38.07%
   Open: 21-Aug | Close: 25-Aug | Refund: 27-Aug
 
@@ -41,7 +41,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Lumino Industries IPO*
-  InvestorGain: 52.44%
+  InvestorGain: 54.88%
   InvestorZone: 0.0%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep
 
