@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 22 Aug 2026*
 
 *Sunshine Pictures IPO*
-  InvestorGain: 17.50%
+  InvestorGain: 18.06%
   InvestorZone: 21.39%
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
@@ -11,7 +11,7 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 101.67%
+  InvestorGain: 103.33%
   InvestorZone: 91.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
 
@@ -21,7 +21,7 @@
   Open: 21-Aug | Close: 25-Aug | Refund: 27-Aug
 
 *Hy-Tech Engineers IPO*
-  InvestorGain: 41.51%
+  InvestorGain: 47.17%
   InvestorZone: 41.51%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
