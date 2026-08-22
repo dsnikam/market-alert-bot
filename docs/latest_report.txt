@@ -11,12 +11,12 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 98.33%
+  InvestorGain: 101.67%
   InvestorZone: 91.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 40.61%
+  InvestorGain: 43.15%
   InvestorZone: 38.07%
   Open: 21-Aug | Close: 25-Aug | Refund: 27-Aug
 
@@ -31,7 +31,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Skyways Air IPO*
-  InvestorGain: 32.61%
+  InvestorGain: 31.16%
   InvestorZone: 30.43%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
