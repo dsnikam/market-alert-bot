@@ -36,7 +36,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Lumino Industries IPO*
-  InvestorGain: 63.41%
+  InvestorGain: 62.20%
   InvestorZone: 0.0%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep
 
