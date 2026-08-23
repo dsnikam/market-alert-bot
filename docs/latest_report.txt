@@ -6,7 +6,7 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 10.62%
+  InvestorGain: 10.78%
   InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
@@ -26,7 +26,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 41.50%
+  InvestorGain: 40.99%
   InvestorZone: 32.39%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
