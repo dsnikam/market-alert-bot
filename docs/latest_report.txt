@@ -31,12 +31,12 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Skyways Air IPO*
-  InvestorGain: 24.64%
+  InvestorGain: 25.36%
   InvestorZone: 30.43%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Lumino Industries IPO*
-  InvestorGain: 62.20%
+  InvestorGain: 59.76%
   InvestorZone: 0.0%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep
 
