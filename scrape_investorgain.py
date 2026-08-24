@@ -16,10 +16,10 @@ def _clean_name(raw):
     name = raw
     name = re.sub(r"L@[\d.]+\s*\([-\d.]+%\)\s*$", "", name).strip()
     name = re.sub(r"ALLOTTED\s*$", "", name).strip()
-    for suf in ["CT", "U", "O", "C"]:
-        if name.endswith(suf):
-            name = name[: -len(suf)].strip()
-            break
+    # Status flags (U=upcoming, O=open, C=closed, CT=closing today) are glued directly
+    # onto "IPO"/"SME" with no space -- only strip them from that exact position, so we
+    # don't accidentally eat the trailing "O" of a legitimately-named "...IPO" with no flag.
+    name = re.sub(r"(IPO|SME)(U|O|C|CT)$", r"\1", name)
     return name.strip()
 
 

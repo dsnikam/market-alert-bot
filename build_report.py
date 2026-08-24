@@ -161,17 +161,15 @@ def _calculate_refund_date_from_allotment(allotment_str):
 
 def _is_current(entry):
     """
-    Keep IPOs up through their allotment date -- i.e. drop an IPO once its
-    allotment date has passed. Falls back to the close date if no allotment
-    date is available.
+    Keep IPOs up through their listing date -- i.e. drop an IPO once it has
+    actually started trading. Falls back to allotment, then close date, if
+    listing date isn't available.
     """
     today = date.today()
-    allotment_dt = _parse_date_str(entry.get("allotment"))
-    if allotment_dt is not None:
-        return allotment_dt >= today
-    close_dt = _parse_date_str(entry.get("close"))
-    if close_dt is not None:
-        return close_dt >= today
+    for field in ("listing", "allotment", "close"):
+        dt = _parse_date_str(entry.get(field))
+        if dt is not None:
+            return dt >= today
     return True  # no dates at all -- keep rather than accidentally drop
 
 
@@ -217,6 +215,7 @@ def build_merged_data(min_gmp_pct=10):
         merged[key]["is_sme"] = row.get("is_sme", False)
         merged[key]["open"] = row.get("open")
         merged[key]["close"] = row.get("close")
+        merged[key]["listing"] = row.get("listing")
         merged[key]["allotment"] = row.get("allotment")  # actual published date, not calculated
 
     for row in iz_data:
@@ -226,9 +225,11 @@ def build_merged_data(min_gmp_pct=10):
         merged[key].setdefault("is_sme", row.get("is_sme", False))
         merged[key].setdefault("open", row.get("open"))
         merged[key].setdefault("close", row.get("close"))
+        merged[key].setdefault("listing", row.get("listing"))
 
-    # Allotment: use InvestorGain's actual published Basis of Allotment date when we
-    # have it; only calculate it (close + 1 working day) for InvestorZone-only entries.
+    # Allotment (internal use only, to derive refund -- not displayed): use InvestorGain's
+    # actual published Basis of Allotment date when we have it; only calculate it
+    # (close + 1 working day) for InvestorZone-only entries.
     # Refund: always calculated as 1 working day after whichever allotment date we end
     # up with, per SEBI's T+3 timeline -- there's no published "refund date" field anywhere.
     for v in merged.values():
@@ -266,10 +267,10 @@ def format_report(entries, min_gmp_pct=10):
             details.append(f"Open: {e['open']}")
         if e.get("close"):
             details.append(f"Close: {e['close']}")
-        if e.get("allotment"):
-            details.append(f"Allotment: {e['allotment']}")
         if e.get("refund"):
             details.append(f"Refund: {e['refund']}")
+        if e.get("listing"):
+            details.append(f"Listing: {e['listing']}")
         if details:
             lines.append("  " + " | ".join(details))
         lines.append("")
@@ -317,8 +318,8 @@ def format_html_report(entries, min_gmp_pct=10):
               <div class="dates">
                 <span><b>Open</b> {e.get('open') or '—'}</span>
                 <span><b>Close</b> {e.get('close') or '—'}</span>
-                <span><b>Allotment</b> {e.get('allotment') or '—'}</span>
                 <span><b>Refund</b> {e.get('refund') or '—'}</span>
+                <span><b>Listing</b> {e.get('listing') or '—'}</span>
               </div>
             </div>
             <div class="slip-gmp">
