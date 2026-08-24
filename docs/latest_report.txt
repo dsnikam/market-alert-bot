@@ -1,43 +1,38 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 24 Aug 2026*
 
-*Sunshine Pictures IPO*
-  InvestorGain: 15.28%
-  InvestorZone: 21.39%
-  Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
-
 *Gaja Alternative Asset Management IPO*
   InvestorGain: 10.16%
   InvestorZone: 10.62%
-  Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
+  Open: 19-Aug | Close: 21-Aug | Allotment: 24-Aug | Refund: 25-Aug
 
 *Tempsens Instruments (India) IPO*
   InvestorGain: 106.67%
   InvestorZone: 104.33%
-  Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
+  Open: 20-Aug | Close: 24-Aug | Allotment: 25-Aug | Refund: 26-Aug
 
 *Augmont Enterprises IPO*
   InvestorGain: 49.49%
   InvestorZone: 48.22%
-  Open: 21-Aug | Close: 25-Aug | Refund: 27-Aug
+  Open: 21-Aug | Close: 25-Aug | Allotment: 27-Aug | Refund: 28-Aug
 
 *Hy-Tech Engineers IPO*
   InvestorGain: 47.17%
   InvestorZone: 47.17%
-  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
+  Open: 24-Aug | Close: 27-Aug | Allotment: 28-Aug | Refund: 31-Aug
 
 *Symbiotec Pharmalab IPO*
   InvestorGain: 40.79%
   InvestorZone: 41.4%
-  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
+  Open: 24-Aug | Close: 27-Aug | Allotment: 28-Aug | Refund: 31-Aug
 
 *Skyways Air IPO*
   InvestorGain: 19.57%
   InvestorZone: 23.19%
-  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
+  Open: 24-Aug | Close: 27-Aug | Allotment: 28-Aug | Refund: 31-Aug
 
 *Lumino Industries IPO*
   InvestorGain: 57.32%
   InvestorZone: 59.76%
-  Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep
+  Open: 27-Aug | Close: 31-Aug | Allotment: 1-Sep | Refund: 02-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
