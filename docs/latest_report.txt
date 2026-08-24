@@ -11,17 +11,17 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug | Listing: 25-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 8.44%
+  InvestorGain: 9.38%
   InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 102.33%
+  InvestorGain: 100.00%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 41.88%
+  InvestorGain: 40.61%
   InvestorZone: 48.22%
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
@@ -41,7 +41,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
-  InvestorGain: 54.88%
+  InvestorGain: 57.32%
   InvestorZone: 59.76%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
