@@ -16,7 +16,7 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 99.67%
+  InvestorGain: 96.67%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
@@ -44,5 +44,10 @@
   InvestorGain: 58.54%
   InvestorZone: 59.76%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
+
+*Priority Jewels IPO*
+  InvestorGain: 14.00%
+  InvestorZone: N/A
+  Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
