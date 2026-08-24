@@ -6,7 +6,7 @@
   Open: 17-Aug | Close: 19-Aug | Refund: 21-Aug | Listing: 24-Aug
 
 *Sunshine Pictures IPO*
-  InvestorGain: 15.83%
+  InvestorGain: 16.39%
   InvestorZone: 21.39%
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug | Listing: 25-Aug
 
@@ -16,32 +16,32 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 109.00%
+  InvestorGain: 110.00%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 49.49%
+  InvestorGain: 48.10%
   InvestorZone: 48.22%
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
 *Hy-Tech Engineers IPO*
-  InvestorGain: 56.60%
+  InvestorGain: 66.04%
   InvestorZone: 47.17%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 40.79%
+  InvestorGain: 39.98%
   InvestorZone: 41.4%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
-  InvestorGain: 20.65%
+  InvestorGain: 23.91%
   InvestorZone: 23.19%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
-  InvestorGain: 57.32%
+  InvestorGain: 56.10%
   InvestorZone: 59.76%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
