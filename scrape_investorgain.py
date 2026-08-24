@@ -52,7 +52,7 @@ def scrape_investorgain():
                 continue
             texts = [c.inner_text().strip() for c in cells]
             # Columns: NAME(0) GMP(1) RATING(2) SUB(3) PRICE(4) IPO SIZE(5) LOT(6)
-            #          OPEN(7) CLOSE(8) BOA DT / REFUND(9) LISTING(10) UPDATED-ON(11) ANCHOR(12)
+            #          OPEN(7) CLOSE(8) BOA DT / ALLOTMENT(9) LISTING(10) UPDATED-ON(11) ANCHOR(12)
             raw_name = texts[0]
             gmp_line = texts[1].split("\n")[0].strip()
             results.append({
@@ -62,7 +62,7 @@ def scrape_investorgain():
                 "gmp_pct": _extract_gmp_pct(gmp_line),
                 "open": _clean_date(texts[7]),
                 "close": _clean_date(texts[8]),
-                "refund": _clean_date(texts[9]),
+                "allotment": _clean_date(texts[9]),  # actual published Basis of Allotment date
                 "listing": _clean_date(texts[10]),
             })
         browser.close()

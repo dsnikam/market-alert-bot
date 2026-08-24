@@ -143,24 +143,32 @@ def _add_working_days(start, n):
     return d
 
 
-def _calculate_refund_date(close_str):
-    """Refund initiation is generally close date + 2 NSE/BSE working days."""
+def _calculate_allotment_date(close_str):
+    """Basis of Allotment is generally close date + 1 NSE/BSE working day (SEBI T+3 timeline)."""
     close_dt = _parse_date_str(close_str)
     if close_dt is None:
         return None
-    return _add_working_days(close_dt, 2).strftime("%d-%b")
+    return _add_working_days(close_dt, 1).strftime("%d-%b")
+
+
+def _calculate_refund_date_from_allotment(allotment_str):
+    """Refund initiation is generally 1 NSE/BSE working day after allotment (SEBI T+3 timeline)."""
+    allotment_dt = _parse_date_str(allotment_str)
+    if allotment_dt is None:
+        return None
+    return _add_working_days(allotment_dt, 1).strftime("%d-%b")
 
 
 def _is_current(entry):
     """
-    Keep IPOs up through their refund date -- i.e. drop an IPO once its refund
-    date has passed. Falls back to the close date if no refund date is available
-    (InvestorZone-only entries don't have one).
+    Keep IPOs up through their allotment date -- i.e. drop an IPO once its
+    allotment date has passed. Falls back to the close date if no allotment
+    date is available.
     """
     today = date.today()
-    refund_dt = _parse_date_str(entry.get("refund"))
-    if refund_dt is not None:
-        return refund_dt >= today
+    allotment_dt = _parse_date_str(entry.get("allotment"))
+    if allotment_dt is not None:
+        return allotment_dt >= today
     close_dt = _parse_date_str(entry.get("close"))
     if close_dt is not None:
         return close_dt >= today
@@ -209,6 +217,7 @@ def build_merged_data(min_gmp_pct=10):
         merged[key]["is_sme"] = row.get("is_sme", False)
         merged[key]["open"] = row.get("open")
         merged[key]["close"] = row.get("close")
+        merged[key]["allotment"] = row.get("allotment")  # actual published date, not calculated
 
     for row in iz_data:
         key = _normalize_name(row["name"])
@@ -218,12 +227,16 @@ def build_merged_data(min_gmp_pct=10):
         merged[key].setdefault("open", row.get("open"))
         merged[key].setdefault("close", row.get("close"))
 
-    # Refund date is always calculated (close date + 2 NSE/BSE working days),
-    # not scraped -- this is consistent regardless of which source(s) had the IPO.
+    # Allotment: use InvestorGain's actual published Basis of Allotment date when we
+    # have it; only calculate it (close + 1 working day) for InvestorZone-only entries.
+    # Refund: always calculated as 1 working day after whichever allotment date we end
+    # up with, per SEBI's T+3 timeline -- there's no published "refund date" field anywhere.
     for v in merged.values():
-        v["refund"] = _calculate_refund_date(v.get("close"))
+        if not v.get("allotment"):
+            v["allotment"] = _calculate_allotment_date(v.get("close"))
+        v["refund"] = _calculate_refund_date_from_allotment(v.get("allotment"))
 
-    # Keep only: still-current (not past refund date), mainboard (not SME), best GMP % above threshold
+    # Keep only: still-current (not past allotment date), mainboard (not SME), best GMP % above threshold
     current = [
         v for v in merged.values()
         if _is_current(v)
@@ -253,6 +266,8 @@ def format_report(entries, min_gmp_pct=10):
             details.append(f"Open: {e['open']}")
         if e.get("close"):
             details.append(f"Close: {e['close']}")
+        if e.get("allotment"):
+            details.append(f"Allotment: {e['allotment']}")
         if e.get("refund"):
             details.append(f"Refund: {e['refund']}")
         if details:
@@ -302,6 +317,7 @@ def format_html_report(entries, min_gmp_pct=10):
               <div class="dates">
                 <span><b>Open</b> {e.get('open') or '—'}</span>
                 <span><b>Close</b> {e.get('close') or '—'}</span>
+                <span><b>Allotment</b> {e.get('allotment') or '—'}</span>
                 <span><b>Refund</b> {e.get('refund') or '—'}</span>
               </div>
             </div>
