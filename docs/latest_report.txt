@@ -6,17 +6,17 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 10.62%
+  InvestorGain: 10.16%
   InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 104.33%
+  InvestorGain: 103.33%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 48.22%
+  InvestorGain: 49.49%
   InvestorZone: 48.22%
   Open: 21-Aug | Close: 25-Aug | Refund: 27-Aug
 
@@ -26,17 +26,17 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 41.40%
+  InvestorGain: 39.98%
   InvestorZone: 41.4%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Skyways Air IPO*
-  InvestorGain: 23.19%
+  InvestorGain: 20.29%
   InvestorZone: 23.19%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug
 
 *Lumino Industries IPO*
-  InvestorGain: 59.76%
+  InvestorGain: 57.32%
   InvestorZone: 59.76%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep
 
