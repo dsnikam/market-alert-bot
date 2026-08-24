@@ -16,7 +16,7 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 96.67%
+  InvestorGain: 101.67%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
@@ -36,7 +36,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
-  InvestorGain: 23.91%
+  InvestorGain: 23.19%
   InvestorZone: 23.19%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
