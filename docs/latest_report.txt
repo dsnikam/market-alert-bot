@@ -6,7 +6,7 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug | Listing: 25-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 11.56%
+  InvestorGain: 11.25%
   InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
@@ -26,12 +26,12 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 35.43%
+  InvestorGain: 35.63%
   InvestorZone: 34.41%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
-  InvestorGain: 21.01%
+  InvestorGain: 21.30%
   InvestorZone: 21.74%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
@@ -41,7 +41,7 @@
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
 *ESDS Software Solution IPO*
-  InvestorGain: 57.11%
+  InvestorGain: 58.28%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
