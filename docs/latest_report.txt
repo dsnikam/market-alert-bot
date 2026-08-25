@@ -6,7 +6,7 @@
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug | Listing: 25-Aug
 
 *Gaja Alternative Asset Management IPO*
-  InvestorGain: 11.25%
+  InvestorGain: 11.88%
   InvestorZone: 10.62%
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
@@ -41,7 +41,7 @@
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
 *ESDS Software Solution IPO*
-  InvestorGain: 61.77%
+  InvestorGain: 59.44%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
