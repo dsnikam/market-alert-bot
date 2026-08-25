@@ -1,8 +1,13 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 25 Aug 2026*
 
 *Sunshine Pictures IPO*
-  InvestorGain: 13.89%
+  InvestorGain: N/A
   InvestorZone: 21.39%
+  Open: 2026-08-18 | Close: 2026-08-20 | Refund: 24-Aug | Listing: 2026-08-25
+
+*Sunshine Pictures IPOLT*
+  InvestorGain: 13.89%
+  InvestorZone: N/A
   Open: 18-Aug | Close: 20-Aug | Refund: 24-Aug | Listing: 25-Aug
 
 *Gaja Alternative Asset Management IPO*
@@ -11,7 +16,7 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 104.33%
+  InvestorGain: 105.67%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
@@ -26,7 +31,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 33.91%
+  InvestorGain: 34.41%
   InvestorZone: 41.4%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
