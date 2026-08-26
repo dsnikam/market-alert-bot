@@ -6,22 +6,22 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 101.67%
+  InvestorGain: 100.00%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 39.97%
+  InvestorGain: 40.61%
   InvestorZone: 41.24%
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
 *Hy-Tech Engineers IPO*
-  InvestorGain: 71.70%
+  InvestorGain: 75.47%
   InvestorZone: 56.6%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 34.92%
+  InvestorGain: 34.41%
   InvestorZone: 35.63%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
@@ -36,7 +36,7 @@
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
 *ESDS Software Solution IPO*
-  InvestorGain: 66.43%
+  InvestorGain: 73.66%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
