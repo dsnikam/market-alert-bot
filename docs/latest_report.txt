@@ -1,9 +1,14 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 26 Aug 2026*
 
-*Gaja Alternative Asset Management IPO*
+*Gaja Alternative Asset Management IPOLT*
   InvestorGain: 11.56%
-  InvestorZone: 10.62%
+  InvestorZone: N/A
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
+
+*Gaja Alternative Asset Management IPO*
+  InvestorGain: N/A
+  InvestorZone: 10.62%
+  Open: 2026-08-19 | Close: 2026-08-21 | Refund: 25-Aug | Listing: 2026-08-26
 
 *Tempsens Instruments (India) IPO*
   InvestorGain: 104.00%
@@ -36,7 +41,7 @@
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
 *ESDS Software Solution IPO*
-  InvestorGain: 64.10%
+  InvestorGain: 65.27%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
