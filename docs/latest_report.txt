@@ -26,24 +26,24 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
-  InvestorGain: 21.01%
+  InvestorGain: 23.19%
   InvestorZone: 21.01%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
   InvestorGain: 56.10%
-  InvestorZone: 56.1%
+  InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
 *ESDS Software Solution IPO*
-  InvestorGain: 76.92%
+  InvestorGain: 80.42%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *ESDS Software IPO*
   InvestorGain: N/A
   InvestorZone: 65.27%
-  Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep
+  Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *Priority Jewels IPO*
   InvestorGain: 15.00%
