@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 26 Aug 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 27 Aug 2026*
 
 *Gaja Alternative Asset Management IPO*
   InvestorGain: 11.56%
@@ -21,7 +21,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 29.86%
+  InvestorGain: 28.85%
   InvestorZone: 35.63%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
