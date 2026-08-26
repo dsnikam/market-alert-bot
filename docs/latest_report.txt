@@ -6,7 +6,7 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 104.00%
+  InvestorGain: 102.67%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
@@ -16,23 +16,23 @@
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
 *Hy-Tech Engineers IPO*
-  InvestorGain: 56.60%
+  InvestorGain: 71.70%
   InvestorZone: 56.6%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 35.63%
-  InvestorZone: 34.41%
+  InvestorGain: 35.43%
+  InvestorZone: 35.63%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
   InvestorGain: 21.01%
-  InvestorZone: 21.74%
+  InvestorZone: 21.01%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
   InvestorGain: 56.10%
-  InvestorZone: 57.32%
+  InvestorZone: 56.1%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
 *ESDS Software Solution IPO*
@@ -40,9 +40,14 @@
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
+*ESDS Software IPO*
+  InvestorGain: N/A
+  InvestorZone: 65.27%
+  Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep
+
 *Priority Jewels IPO*
   InvestorGain: 15.00%
-  InvestorZone: 14.0%
+  InvestorZone: 15.0%
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
