@@ -6,7 +6,7 @@
   Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 103.33%
+  InvestorGain: 101.00%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
@@ -16,7 +16,7 @@
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
 *Hy-Tech Engineers IPO*
-  InvestorGain: 75.47%
+  InvestorGain: 83.02%
   InvestorZone: 56.6%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
