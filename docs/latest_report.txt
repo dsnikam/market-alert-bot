@@ -1,48 +1,53 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 27 Aug 2026*
 
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 101.67%
+  InvestorGain: 110.00%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 39.97%
+  InvestorGain: 38.07%
   InvestorZone: 41.24%
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
 *Hy-Tech Engineers IPO*
-  InvestorGain: 83.02%
-  InvestorZone: 56.6%
-  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
-
-*Symbiotec Pharmalab IPO*
-  InvestorGain: 28.85%
-  InvestorZone: 35.63%
+  InvestorGain: 84.91%
+  InvestorZone: 83.02%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
-  InvestorGain: 30.43%
+  InvestorGain: 31.88%
   InvestorZone: 21.01%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
+*Symbiotec Pharmalab IPO*
+  InvestorGain: 27.33%
+  InvestorZone: 28.85%
+  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
+
 *Lumino Industries IPO*
-  InvestorGain: 67.07%
+  InvestorGain: 68.29%
   InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
+*ESDS Software IPO*
+  InvestorGain: N/A
+  InvestorZone: 85.08%
+  Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
+
 *ESDS Software Solution IPO*
-  InvestorGain: 85.08%
+  InvestorGain: 81.59%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
-*ESDS Software IPO*
-  InvestorGain: N/A
-  InvestorZone: 65.27%
-  Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
-
 *Priority Jewels IPO*
-  InvestorGain: 10.00%
-  InvestorZone: 15.0%
+  InvestorGain: 18.50%
+  InvestorZone: 10.0%
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
+
+*Deepa Jewellers IPO*
+  InvestorGain: 26.55%
+  InvestorZone: N/A
+  Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
