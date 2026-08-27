@@ -1,12 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 27 Aug 2026*
 
-*Gaja Alternative Asset Management IPO*
-  InvestorGain: 11.56%
-  InvestorZone: 10.62%
-  Open: 19-Aug | Close: 21-Aug | Refund: 25-Aug | Listing: 26-Aug
-
 *Tempsens Instruments (India) IPO*
-  InvestorGain: 101.00%
+  InvestorGain: 101.67%
   InvestorZone: 104.33%
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
@@ -31,7 +26,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
-  InvestorGain: 60.98%
+  InvestorGain: 67.07%
   InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
