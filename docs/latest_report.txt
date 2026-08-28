@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 28 Aug 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 29 Aug 2026*
 
 *Tempsens Instruments (India) IPO*
   InvestorGain: 110.00%
@@ -6,27 +6,27 @@
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 37.18%
+  InvestorGain: 38.20%
   InvestorZone: 41.24%
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
 *Hy-Tech Engineers IPO*
-  InvestorGain: 84.91%
+  InvestorGain: 75.47%
   InvestorZone: 83.02%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 26.32%
+  InvestorGain: 26.82%
   InvestorZone: 28.85%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
-  InvestorGain: 27.17%
+  InvestorGain: 26.81%
   InvestorZone: 21.01%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
-  InvestorGain: 71.95%
+  InvestorGain: 75.00%
   InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
@@ -36,18 +36,23 @@
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 83.68%
+  InvestorGain: 83.92%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Priority Jewels IPO*
-  InvestorGain: 18.50%
+  InvestorGain: 22.50%
   InvestorZone: 10.0%
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Deepa Jewellers IPO*
   InvestorGain: 26.55%
   InvestorZone: N/A
+  Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
+
+*Rays of Belief IPO*
+  InvestorGain: 12.13%
+  InvestorZone: 6.28%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
