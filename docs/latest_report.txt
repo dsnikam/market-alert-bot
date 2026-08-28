@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 27 Aug 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 28 Aug 2026*
 
 *Tempsens Instruments (India) IPO*
   InvestorGain: 110.00%
@@ -6,7 +6,7 @@
   Open: 20-Aug | Close: 24-Aug | Refund: 26-Aug | Listing: 28-Aug
 
 *Augmont Enterprises IPO*
-  InvestorGain: 38.07%
+  InvestorGain: 38.71%
   InvestorZone: 41.24%
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
@@ -36,7 +36,7 @@
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 81.59%
+  InvestorGain: 75.76%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
