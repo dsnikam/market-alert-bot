@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 30 Aug 2026*
 
 *Augmont Enterprises IPO*
-  InvestorGain: 36.29%
+  InvestorGain: 36.80%
   InvestorZone: 41.24%
   Open: 21-Aug | Close: 25-Aug | Refund: 28-Aug | Listing: 31-Aug
 
@@ -21,19 +21,19 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
-  InvestorGain: 76.83%
+  InvestorGain: 75.61%
   InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
-
-*ESDS Software Solution IPO*
-  InvestorGain: 86.71%
-  InvestorZone: N/A
-  Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *ESDS Software IPO*
   InvestorGain: N/A
   InvestorZone: 85.08%
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
+
+*ESDS Software Solution IPO*
+  InvestorGain: 83.92%
+  InvestorZone: N/A
+  Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Priority Jewels IPO*
   InvestorGain: 22.50%
@@ -41,7 +41,7 @@
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Deepa Jewellers IPO*
-  InvestorGain: 29.94%
+  InvestorGain: 24.29%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
