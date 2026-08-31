@@ -11,43 +11,43 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 24.29%
+  InvestorGain: 20.24%
   InvestorZone: 28.85%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
-  InvestorGain: 28.62%
+  InvestorGain: 26.09%
   InvestorZone: 21.01%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
-  InvestorGain: 74.39%
+  InvestorGain: 63.41%
   InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
 *ESDS Software IPO*
   InvestorGain: N/A
-  InvestorZone: 85.08%
+  InvestorZone: 78.09%
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 78.09%
+  InvestorGain: 75.76%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Priority Jewels IPO*
   InvestorGain: 22.50%
-  InvestorZone: 10.0%
+  InvestorZone: 22.5%
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Deepa Jewellers IPO*
   InvestorGain: 25.42%
-  InvestorZone: N/A
+  InvestorZone: 25.42%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Rays of Belief IPO*
   InvestorGain: 14.64%
-  InvestorZone: 6.28%
+  InvestorZone: 14.64%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
