@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 31 Aug 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 01 Sep 2026*
 
 *Augmont Enterprises IPO*
   InvestorGain: 36.80%
@@ -11,17 +11,17 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Symbiotec Pharmalab IPO*
-  InvestorGain: 20.24%
+  InvestorGain: 18.72%
   InvestorZone: 28.85%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Skyways Air IPO*
-  InvestorGain: 22.46%
+  InvestorGain: 23.19%
   InvestorZone: 21.01%
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
-  InvestorGain: 59.15%
+  InvestorGain: 58.54%
   InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
@@ -31,7 +31,7 @@
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 74.59%
+  InvestorGain: 73.66%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
@@ -41,12 +41,12 @@
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Deepa Jewellers IPO*
-  InvestorGain: 30.51%
+  InvestorGain: 31.07%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Rays of Belief IPO*
-  InvestorGain: 16.32%
+  InvestorGain: 20.08%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
