@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 01 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 02 Sep 2026*
 
 *Hy-Tech Engineers IPO*
   InvestorGain: 73.58%
@@ -16,7 +16,7 @@
   Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
 
 *Lumino Industries IPO*
-  InvestorGain: 52.44%
+  InvestorGain: 46.34%
   InvestorZone: 56.1%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
@@ -26,7 +26,7 @@
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 59.91%
+  InvestorGain: 59.44%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
