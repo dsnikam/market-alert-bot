@@ -1,20 +1,5 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 02 Sep 2026*
 
-*Hy-Tech Engineers IPO*
-  InvestorGain: 73.58%
-  InvestorZone: 83.02%
-  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
-
-*Symbiotec Pharmalab IPO*
-  InvestorGain: 18.72%
-  InvestorZone: 28.85%
-  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
-
-*Skyways Air IPO*
-  InvestorGain: 23.91%
-  InvestorZone: 21.01%
-  Open: 24-Aug | Close: 27-Aug | Refund: 31-Aug | Listing: 1-Sep
-
 *Lumino Industries IPO*
   InvestorGain: 46.34%
   InvestorZone: 56.1%
