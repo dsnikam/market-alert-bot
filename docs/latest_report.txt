@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 02 Sep 2026*
 
 *Lumino Industries IPO*
-  InvestorGain: 43.29%
+  InvestorGain: 46.34%
   InvestorZone: 56.1%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
@@ -21,7 +21,7 @@
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Rays of Belief IPO*
-  InvestorGain: 13.39%
+  InvestorGain: 17.57%
   InvestorZone: 15.9%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
