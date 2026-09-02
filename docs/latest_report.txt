@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 02 Sep 2026*
 
 *Lumino Industries IPO*
-  InvestorGain: 46.34%
+  InvestorGain: 36.59%
   InvestorZone: 56.1%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
@@ -29,6 +29,11 @@
   InvestorGain: 15.90%
   InvestorZone: 20.08%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
+
+*Pranav Constructions IPO*
+  InvestorGain: 18.55%
+  InvestorZone: N/A
+  Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Veegaland Developers IPO*
   InvestorGain: 12.86%
