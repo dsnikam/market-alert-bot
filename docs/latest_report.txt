@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 02 Sep 2026*
 
 *Lumino Industries IPO*
-  InvestorGain: 41.46%
+  InvestorGain: 43.29%
   InvestorZone: 56.1%
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
@@ -11,7 +11,7 @@
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 59.44%
+  InvestorGain: 57.11%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
@@ -20,18 +20,18 @@
   InvestorZone: 22.5%
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
-*Deepa Jewellers IPO*
-  InvestorGain: 18.08%
-  InvestorZone: N/A
-  Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
-
 *Rays of Belief IPO*
   InvestorGain: 13.39%
   InvestorZone: 15.9%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
+*Deepa Jewellers IPO*
+  InvestorGain: 15.82%
+  InvestorZone: N/A
+  Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
+
 *Pranav Constructions IPO*
-  InvestorGain: 20.16%
+  InvestorGain: 21.77%
   InvestorZone: N/A
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
