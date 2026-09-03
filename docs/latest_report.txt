@@ -1,6 +1,6 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 03 Sep 2026*
 
-*Lumino Industries IPOLT*
+*Lumino Industries IPO*
   InvestorGain: 46.34%
   InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
@@ -11,7 +11,7 @@
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 58.28%
+  InvestorGain: 50.12%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
@@ -21,19 +21,29 @@
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Rays of Belief IPO*
-  InvestorGain: 19.67%
-  InvestorZone: 15.9%
+  InvestorGain: 26.36%
+  InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Deepa Jewellers IPO*
-  InvestorGain: 15.82%
+  InvestorGain: 13.56%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
   InvestorGain: 21.77%
-  InvestorZone: N/A
+  InvestorZone: 21.77%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
+
+*Kanohar Electricals IPO*
+  InvestorGain: 23.73%
+  InvestorZone: N/A
+  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
+
+*Glass Wall Systems IPO*
+  InvestorGain: 10.99%
+  InvestorZone: N/A
+  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Veegaland Developers IPO*
   InvestorGain: 12.86%
