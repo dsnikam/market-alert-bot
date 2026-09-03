@@ -1,8 +1,8 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 03 Sep 2026*
 
-*Lumino Industries IPO*
-  InvestorGain: 48.17%
-  InvestorZone: 56.1%
+*Lumino Industries IPOLT*
+  InvestorGain: 46.34%
+  InvestorZone: N/A
   Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
 
 *ESDS Software IPO*
@@ -11,7 +11,7 @@
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 58.74%
+  InvestorGain: 58.28%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
@@ -21,7 +21,7 @@
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Rays of Belief IPO*
-  InvestorGain: 17.57%
+  InvestorGain: 19.67%
   InvestorZone: 15.9%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
