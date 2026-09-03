@@ -11,17 +11,17 @@
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
 
 *ESDS Software Solution IPO*
-  InvestorGain: 56.41%
+  InvestorGain: 57.58%
   InvestorZone: N/A
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Priority Jewels IPO*
-  InvestorGain: 15.00%
+  InvestorGain: 14.00%
   InvestorZone: 22.5%
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Rays of Belief IPO*
-  InvestorGain: 5.44%
+  InvestorGain: 5.02%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
@@ -31,12 +31,12 @@
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
-  InvestorGain: 24.19%
+  InvestorGain: 25.00%
   InvestorZone: 21.77%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Kanohar Electricals IPO*
-  InvestorGain: 22.15%
+  InvestorGain: 31.65%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
