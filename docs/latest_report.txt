@@ -16,32 +16,47 @@
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Rays of Belief IPO*
-  InvestorGain: 5.02%
+  InvestorGain: 7.11%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Deepa Jewellers IPO*
-  InvestorGain: 10.73%
+  InvestorGain: 12.43%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
-  InvestorGain: 25.00%
-  InvestorZone: 21.77%
+  InvestorGain: 26.61%
+  InvestorZone: N/A
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Kanohar Electricals IPO*
-  InvestorGain: 31.65%
-  InvestorZone: N/A
+  InvestorGain: 32.44%
+  InvestorZone: 31.65%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 10.99%
+  InvestorGain: 24.73%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
+*Prasol Chemicals IPO*
+  InvestorGain: 14.79%
+  InvestorZone: 2.07%
+  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
+
+*Glass Wall Systems (India) IPO*
+  InvestorGain: N/A
+  InvestorZone: 12.09%
+  Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
+
+*Rentomojo IPO*
+  InvestorGain: 13.61%
+  InvestorZone: 8.17%
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+
 *Veegaland Developers IPO*
-  InvestorGain: 12.86%
+  InvestorGain: 15.71%
   InvestorZone: 12.86%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
