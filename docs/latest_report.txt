@@ -1,14 +1,14 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 04 Sep 2026*
 
+*ESDS Software Solution IPO*
+  InvestorGain: 72.49%
+  InvestorZone: N/A
+  Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
+
 *ESDS Software IPO*
   InvestorGain: N/A
   InvestorZone: 63.64%
   Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
-
-*ESDS Software Solution IPO*
-  InvestorGain: 57.58%
-  InvestorZone: N/A
-  Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Priority Jewels IPO*
   InvestorGain: 14.00%
@@ -21,7 +21,7 @@
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Deepa Jewellers IPO*
-  InvestorGain: 10.17%
+  InvestorGain: 10.73%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
