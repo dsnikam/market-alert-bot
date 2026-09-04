@@ -26,22 +26,22 @@
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
-  InvestorGain: 26.61%
+  InvestorGain: 27.42%
   InvestorZone: N/A
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
+
+*Glass Wall Systems IPO*
+  InvestorGain: 34.62%
+  InvestorZone: N/A
+  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Kanohar Electricals IPO*
   InvestorGain: 32.44%
   InvestorZone: 31.65%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
-*Glass Wall Systems IPO*
-  InvestorGain: 24.73%
-  InvestorZone: N/A
-  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
-
 *Prasol Chemicals IPO*
-  InvestorGain: 14.79%
+  InvestorGain: 25.15%
   InvestorZone: 2.07%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -53,6 +53,11 @@
 *Rentomojo IPO*
   InvestorGain: 13.61%
   InvestorZone: 8.17%
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+
+*LCC Projects IPO*
+  InvestorGain: 10.27%
+  InvestorZone: 0.0%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
