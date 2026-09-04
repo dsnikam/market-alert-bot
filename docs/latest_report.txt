@@ -1,10 +1,5 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 04 Sep 2026*
 
-*Lumino Industries IPO*
-  InvestorGain: 46.34%
-  InvestorZone: N/A
-  Open: 27-Aug | Close: 31-Aug | Refund: 02-Sep | Listing: 3-Sep
-
 *ESDS Software IPO*
   InvestorGain: N/A
   InvestorZone: 63.64%
