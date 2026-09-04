@@ -16,22 +16,17 @@
   Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
 
 *Rays of Belief IPO*
-  InvestorGain: 7.11%
+  InvestorGain: 4.60%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
-*Deepa Jewellers IPO*
-  InvestorGain: 12.43%
-  InvestorZone: N/A
-  Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
-
 *Pranav Constructions IPO*
-  InvestorGain: 27.42%
+  InvestorGain: 31.45%
   InvestorZone: N/A
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 34.62%
+  InvestorGain: 35.71%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -41,7 +36,7 @@
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Prasol Chemicals IPO*
-  InvestorGain: 25.15%
+  InvestorGain: 24.41%
   InvestorZone: 2.07%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -51,12 +46,17 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Rentomojo IPO*
-  InvestorGain: 13.61%
+  InvestorGain: 19.55%
   InvestorZone: 8.17%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
+*Karamtara Engineering IPO*
+  InvestorGain: 15.75%
+  InvestorZone: N/A
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+
 *LCC Projects IPO*
-  InvestorGain: 10.27%
+  InvestorGain: 11.64%
   InvestorZone: 0.0%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
