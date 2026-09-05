@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 05 Sep 2026*
 
 *Rays of Belief IPO*
-  InvestorGain: 2.93%
+  InvestorGain: 4.18%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
@@ -41,7 +41,7 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Karamtara Engineering IPO*
-  InvestorGain: 18.50%
+  InvestorGain: 21.65%
   InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
