@@ -11,12 +11,12 @@
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
-  InvestorGain: 29.84%
+  InvestorGain: 31.45%
   InvestorZone: N/A
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 36.81%
+  InvestorGain: 38.46%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -36,7 +36,7 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Rentomojo IPO*
-  InvestorGain: 39.60%
+  InvestorGain: 42.08%
   InvestorZone: 8.17%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
