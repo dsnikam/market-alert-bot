@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 05 Sep 2026*
 
 *Rays of Belief IPO*
-  InvestorGain: 5.02%
+  InvestorGain: 3.77%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
@@ -16,7 +16,7 @@
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 35.71%
+  InvestorGain: 36.81%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -36,18 +36,18 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Rentomojo IPO*
-  InvestorGain: 23.51%
+  InvestorGain: 39.60%
   InvestorZone: 8.17%
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+
+*LCC Projects IPO*
+  InvestorGain: 17.12%
+  InvestorZone: 0.0%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Karamtara Engineering IPO*
   InvestorGain: 15.75%
   InvestorZone: N/A
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
-
-*LCC Projects IPO*
-  InvestorGain: 11.64%
-  InvestorZone: 0.0%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
