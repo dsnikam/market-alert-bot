@@ -1,20 +1,5 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 05 Sep 2026*
 
-*ESDS Software Solution IPO*
-  InvestorGain: 72.49%
-  InvestorZone: N/A
-  Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
-
-*ESDS Software IPO*
-  InvestorGain: N/A
-  InvestorZone: 63.64%
-  Open: 2026-08-28 | Close: 2026-09-01 | Refund: 03-Sep | Listing: 2026-09-04
-
-*Priority Jewels IPO*
-  InvestorGain: 14.00%
-  InvestorZone: 22.5%
-  Open: 28-Aug | Close: 1-Sep | Refund: 03-Sep | Listing: 4-Sep
-
 *Rays of Belief IPO*
   InvestorGain: 5.02%
   InvestorZone: 23.43%
@@ -51,7 +36,7 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Rentomojo IPO*
-  InvestorGain: 19.55%
+  InvestorGain: 23.51%
   InvestorZone: 8.17%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
