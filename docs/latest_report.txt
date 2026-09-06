@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 06 Sep 2026*
 
 *Rays of Belief IPO*
-  InvestorGain: 4.60%
+  InvestorGain: 5.86%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
@@ -11,7 +11,7 @@
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
-  InvestorGain: 33.06%
+  InvestorGain: 28.23%
   InvestorZone: N/A
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
@@ -21,7 +21,7 @@
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 27.47%
+  InvestorGain: 22.53%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -36,7 +36,7 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Rentomojo IPO*
-  InvestorGain: 38.37%
+  InvestorGain: 35.89%
   InvestorZone: 8.17%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -51,7 +51,7 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
-  InvestorGain: 15.71%
+  InvestorGain: 21.43%
   InvestorZone: 12.86%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
