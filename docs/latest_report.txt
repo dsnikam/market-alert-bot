@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 06 Sep 2026*
 
 *Rays of Belief IPO*
-  InvestorGain: 4.18%
+  InvestorGain: 4.60%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
@@ -16,7 +16,7 @@
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Kanohar Electricals IPO*
-  InvestorGain: 30.06%
+  InvestorGain: 32.44%
   InvestorZone: 31.65%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
