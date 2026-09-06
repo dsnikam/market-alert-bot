@@ -1,17 +1,17 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 06 Sep 2026*
 
 *Rays of Belief IPO*
-  InvestorGain: 5.86%
+  InvestorGain: 6.28%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Deepa Jewellers IPO*
-  InvestorGain: 10.73%
+  InvestorGain: 11.58%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
-  InvestorGain: 28.23%
+  InvestorGain: 34.68%
   InvestorZone: N/A
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
@@ -21,12 +21,12 @@
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 22.53%
+  InvestorGain: 17.58%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Prasol Chemicals IPO*
-  InvestorGain: 18.49%
+  InvestorGain: 17.01%
   InvestorZone: 2.07%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -36,7 +36,7 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Rentomojo IPO*
-  InvestorGain: 35.89%
+  InvestorGain: 33.91%
   InvestorZone: 8.17%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
