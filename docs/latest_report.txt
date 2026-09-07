@@ -1,12 +1,12 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 07 Sep 2026*
 
 *Rays of Belief IPO*
-  InvestorGain: 7.11%
+  InvestorGain: 6.28%
   InvestorZone: 23.43%
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Deepa Jewellers IPO*
-  InvestorGain: 14.41%
+  InvestorGain: 14.12%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
@@ -16,12 +16,12 @@
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Kanohar Electricals IPO*
-  InvestorGain: 31.33%
+  InvestorGain: 31.01%
   InvestorZone: 32.44%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 25.27%
+  InvestorGain: 28.02%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -31,7 +31,7 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Prasol Chemicals IPO*
-  InvestorGain: 11.83%
+  InvestorGain: 8.14%
   InvestorZone: 17.01%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -46,12 +46,12 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: 17.99%
+  InvestorGain: 19.42%
   InvestorZone: 0.0%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *LCC Projects IPO*
-  InvestorGain: 16.44%
+  InvestorGain: 17.47%
   InvestorZone: 17.12%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -66,7 +66,7 @@
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
 *Manika Plastech IPO*
-  InvestorGain: 39.53%
+  InvestorGain: 46.51%
   InvestorZone: N/A
   Open: 11-Sep | Close: 16-Sep | Refund: 18-Sep | Listing: 21-Sep
 
