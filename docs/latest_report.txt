@@ -6,18 +6,18 @@
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Deepa Jewellers IPO*
-  InvestorGain: 12.15%
+  InvestorGain: 12.71%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
   InvestorGain: 35.48%
-  InvestorZone: N/A
+  InvestorZone: 35.48%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Kanohar Electricals IPO*
   InvestorGain: 32.44%
-  InvestorZone: 31.65%
+  InvestorZone: 32.44%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Glass Wall Systems IPO*
@@ -25,19 +25,19 @@
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
-*Prasol Chemicals IPO*
-  InvestorGain: 17.01%
-  InvestorZone: 2.07%
-  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
-
 *Glass Wall Systems (India) IPO*
   InvestorGain: N/A
-  InvestorZone: 12.09%
+  InvestorZone: 19.23%
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
+*Prasol Chemicals IPO*
+  InvestorGain: 13.31%
+  InvestorZone: 17.01%
+  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
+
 *Rentomojo IPO*
-  InvestorGain: 36.88%
-  InvestorZone: 8.17%
+  InvestorGain: 35.89%
+  InvestorZone: 35.89%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Karamtara Engineering IPO*
@@ -47,12 +47,17 @@
 
 *LCC Projects IPO*
   InvestorGain: 17.12%
-  InvestorZone: 0.0%
+  InvestorZone: 17.12%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
   InvestorGain: 21.43%
-  InvestorZone: 12.86%
+  InvestorZone: 21.43%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
+
+*Manika Plastech IPO*
+  InvestorGain: 16.28%
+  InvestorZone: N/A
+  Open: 11-Sep | Close: 16-Sep | Refund: 18-Sep | Listing: 21-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
