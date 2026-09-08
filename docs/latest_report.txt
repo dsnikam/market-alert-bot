@@ -36,7 +36,7 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Karamtara Engineering IPO*
-  InvestorGain: 24.80%
+  InvestorGain: 26.77%
   InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -46,7 +46,7 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: 20.86%
+  InvestorGain: 21.58%
   InvestorZone: 19.42%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -66,7 +66,7 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
-  InvestorGain: 21.43%
+  InvestorGain: 23.57%
   InvestorZone: 21.43%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
