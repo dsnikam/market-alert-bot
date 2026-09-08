@@ -1,11 +1,11 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 08 Sep 2026*
 
 *Rays of Belief IPO*
-  InvestorGain: 6.28%
+  InvestorGain: N/A
   InvestorZone: 23.43%
-  Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
+  Open: 2026-09-01 | Close: 2026-09-03 | Refund: 07-Sep | Listing: 2026-09-08
 
-*Deepa Jewellers IPO*
+*Deepa Jewellers IPOLT*
   InvestorGain: 14.12%
   InvestorZone: N/A
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
