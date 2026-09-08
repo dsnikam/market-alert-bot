@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 08 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 09 Sep 2026*
 
 *Deepa Jewellers IPO*
   InvestorGain: 14.12%
@@ -11,7 +11,7 @@
   Open: 1-Sep | Close: 3-Sep | Refund: 07-Sep | Listing: 8-Sep
 
 *Pranav Constructions IPO*
-  InvestorGain: 33.06%
+  InvestorGain: 34.68%
   InvestorZone: 34.27%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
@@ -31,13 +31,18 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Rentomojo IPO*
-  InvestorGain: 32.18%
+  InvestorGain: 33.17%
   InvestorZone: 30.94%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Karamtara Engineering IPO*
   InvestorGain: 26.77%
   InvestorZone: N/A
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+
+*LCC Projects IPO*
+  InvestorGain: 23.29%
+  InvestorZone: 17.47%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Steamhouse IPO*
@@ -48,11 +53,6 @@
 *Asset Reconstruction IPO*
   InvestorGain: 21.58%
   InvestorZone: 19.42%
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
-
-*LCC Projects IPO*
-  InvestorGain: 19.86%
-  InvestorZone: 17.47%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Manipal Payment & Identity Solutions IPO*
