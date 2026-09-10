@@ -6,7 +6,7 @@
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 36.26%
+  InvestorGain: 35.71%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -25,14 +25,14 @@
   InvestorZone: 30.94%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
+*LCC Projects IPO*
+  InvestorGain: 33.56%
+  InvestorZone: 17.47%
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+
 *Karamtara Engineering IPO*
   InvestorGain: 29.53%
   InvestorZone: N/A
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
-
-*LCC Projects IPO*
-  InvestorGain: 27.40%
-  InvestorZone: 17.47%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Steamhouse IPO*
