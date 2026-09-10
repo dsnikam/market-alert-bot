@@ -1,24 +1,24 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 10 Sep 2026*
 
 *Pranav Constructions IPO*
-  InvestorGain: 40.32%
+  InvestorGain: 34.68%
   InvestorZone: 34.27%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Kanohar Electricals IPO*
-  InvestorGain: 35.60%
+  InvestorGain: 36.87%
   InvestorZone: 31.01%
-  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
-
-*Glass Wall Systems IPO*
-  InvestorGain: 28.57%
-  InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Glass Wall Systems (India) IPO*
   InvestorGain: N/A
   InvestorZone: 28.02%
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
+
+*Glass Wall Systems IPO*
+  InvestorGain: 24.73%
+  InvestorZone: N/A
+  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Rentomojo IPO*
   InvestorGain: 34.90%
@@ -31,17 +31,17 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Karamtara Engineering IPO*
-  InvestorGain: 26.38%
+  InvestorGain: 27.17%
   InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Steamhouse IPO*
-  InvestorGain: 25.93%
+  InvestorGain: 27.16%
   InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: 10.07%
+  InvestorGain: 9.35%
   InvestorZone: 19.42%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -64,5 +64,10 @@
   InvestorGain: 13.98%
   InvestorZone: N/A
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
+
+*NSE IPO*
+  InvestorGain: 11.99%
+  InvestorZone: N/A
+  Open: 17-Sep | Close: 21-Sep | Refund: 23-Sep | Listing: 24-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
