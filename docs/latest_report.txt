@@ -1,7 +1,7 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 11 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 12 Sep 2026*
 
 *Pranav Constructions IPO*
-  InvestorGain: 35.48%
+  InvestorGain: 39.52%
   InvestorZone: 34.27%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
@@ -36,7 +36,7 @@
   Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
 
 *Karamtara Engineering IPO*
-  InvestorGain: 25.98%
+  InvestorGain: 26.38%
   InvestorZone: 27.17%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -69,6 +69,11 @@
   InvestorGain: N/A
   InvestorZone: 20.43%
   Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
+
+*SS Retail IPO*
+  InvestorGain: 18.87%
+  InvestorZone: N/A
+  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Hero Motors IPO*
   InvestorGain: 11.90%
