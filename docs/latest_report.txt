@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 11 Sep 2026*
 
 *Pranav Constructions IPO*
-  InvestorGain: 37.90%
+  InvestorGain: 35.48%
   InvestorZone: 34.27%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
@@ -16,57 +16,62 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Glass Wall Systems IPO*
-  InvestorGain: 24.73%
+  InvestorGain: 26.37%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *LCC Projects IPO*
-  InvestorGain: 34.93%
-  InvestorZone: 17.47%
+  InvestorGain: 36.99%
+  InvestorZone: 34.93%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Rentomojo IPO*
-  InvestorGain: 33.42%
+  InvestorGain: 34.16%
   InvestorZone: 33.42%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
+*Steamhouse India IPO*
+  InvestorGain: N/A
+  InvestorZone: 28.4%
+  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
+
 *Steamhouse IPO*
-  InvestorGain: 28.40%
+  InvestorGain: 28.09%
   InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Karamtara Engineering IPO*
-  InvestorGain: 27.17%
-  InvestorZone: N/A
+  InvestorGain: 25.59%
+  InvestorZone: 27.17%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: 10.07%
-  InvestorZone: 19.42%
+  InvestorGain: 6.47%
+  InvestorZone: 10.07%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
-*Manipal Payment & Identity Solutions IPO*
-  InvestorGain: N/A
-  InvestorZone: 11.21%
-  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
-
 *Veegaland Developers IPO*
-  InvestorGain: 17.86%
-  InvestorZone: 21.43%
+  InvestorGain: 12.86%
+  InvestorZone: 17.86%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
 *Manika Plastech IPO*
-  InvestorGain: 30.23%
-  InvestorZone: 46.51%
+  InvestorGain: 23.26%
+  InvestorZone: 30.23%
   Open: 11-Sep | Close: 16-Sep | Refund: 18-Sep | Listing: 21-Sep
 
 *Jindal Supreme IPO*
-  InvestorGain: 20.43%
+  InvestorGain: 22.58%
   InvestorZone: N/A
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
+*Jindal Supreme (India) IPO*
+  InvestorGain: N/A
+  InvestorZone: 20.43%
+  Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
+
 *NSE IPO*
-  InvestorGain: 10.08%
+  InvestorGain: 10.59%
   InvestorZone: N/A
   Open: 17-Sep | Close: 21-Sep | Refund: 23-Sep | Listing: 24-Sep
 
