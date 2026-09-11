@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 11 Sep 2026*
 
 *Pranav Constructions IPO*
-  InvestorGain: 41.94%
+  InvestorGain: 37.90%
   InvestorZone: 34.27%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
@@ -27,7 +27,7 @@
 
 *Rentomojo IPO*
   InvestorGain: 33.42%
-  InvestorZone: 30.94%
+  InvestorZone: 33.42%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Steamhouse IPO*
@@ -66,7 +66,7 @@
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *NSE IPO*
-  InvestorGain: 10.76%
+  InvestorGain: 10.08%
   InvestorZone: N/A
   Open: 17-Sep | Close: 21-Sep | Refund: 23-Sep | Listing: 24-Sep
 
