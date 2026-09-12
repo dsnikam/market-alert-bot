@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 12 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 13 Sep 2026*
 
 *Pranav Constructions IPO*
   InvestorGain: 40.32%
@@ -21,7 +21,7 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *LCC Projects IPO*
-  InvestorGain: 46.58%
+  InvestorGain: 44.52%
   InvestorZone: 34.93%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
