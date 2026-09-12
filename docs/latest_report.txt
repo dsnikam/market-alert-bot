@@ -1,12 +1,12 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 12 Sep 2026*
 
 *Pranav Constructions IPO*
-  InvestorGain: 39.52%
+  InvestorGain: 36.29%
   InvestorZone: 34.27%
   Open: 7-Sep | Close: 9-Sep | Refund: 11-Sep | Listing: 15-Sep
 
 *Kanohar Electricals IPO*
-  InvestorGain: 37.18%
+  InvestorGain: 37.97%
   InvestorZone: 31.01%
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -16,17 +16,17 @@
   Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
 
 *Glass Wall Systems IPO*
-  InvestorGain: 26.37%
+  InvestorGain: 27.47%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *LCC Projects IPO*
-  InvestorGain: 51.37%
+  InvestorGain: 55.48%
   InvestorZone: 34.93%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Rentomojo IPO*
-  InvestorGain: 36.63%
+  InvestorGain: 39.85%
   InvestorZone: 33.42%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -36,7 +36,7 @@
   Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
 
 *Karamtara Engineering IPO*
-  InvestorGain: 26.38%
+  InvestorGain: 27.17%
   InvestorZone: 27.17%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -51,14 +51,24 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
-  InvestorGain: 14.29%
+  InvestorGain: 7.14%
   InvestorZone: 17.86%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
 *Manika Plastech IPO*
-  InvestorGain: 16.28%
+  InvestorGain: 6.98%
   InvestorZone: 30.23%
   Open: 11-Sep | Close: 16-Sep | Refund: 18-Sep | Listing: 21-Sep
+
+*Hero Motors IPO*
+  InvestorGain: 28.57%
+  InvestorZone: 9.52%
+  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
+
+*SS Retail IPO*
+  InvestorGain: 25.00%
+  InvestorZone: N/A
+  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Jindal Supreme IPO*
   InvestorGain: 22.58%
@@ -70,18 +80,8 @@
   InvestorZone: 20.43%
   Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
 
-*SS Retail IPO*
-  InvestorGain: 18.87%
-  InvestorZone: N/A
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
-*Hero Motors IPO*
-  InvestorGain: 11.90%
-  InvestorZone: 9.52%
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
 *NSE IPO*
-  InvestorGain: 12.21%
+  InvestorGain: 11.65%
   InvestorZone: N/A
   Open: 17-Sep | Close: 21-Sep | Refund: 23-Sep | Listing: 24-Sep
 
