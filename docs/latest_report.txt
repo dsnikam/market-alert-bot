@@ -11,7 +11,7 @@
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
 *Glass Wall Systems IPO*
-  InvestorGain: 28.13%
+  InvestorGain: 28.02%
   InvestorZone: N/A
   Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
 
@@ -26,7 +26,7 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Rentomojo IPO*
-  InvestorGain: 39.85%
+  InvestorGain: 39.60%
   InvestorZone: 33.42%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -65,13 +65,13 @@
   InvestorZone: 9.52%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
-*SS Retail IPO*
-  InvestorGain: 25.00%
+*Jindal Supreme IPO*
+  InvestorGain: 26.88%
   InvestorZone: N/A
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
-*Jindal Supreme IPO*
-  InvestorGain: 22.58%
+*SS Retail IPO*
+  InvestorGain: 25.00%
   InvestorZone: N/A
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
@@ -81,7 +81,7 @@
   Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
 
 *NSE IPO*
-  InvestorGain: 11.60%
+  InvestorGain: 11.65%
   InvestorZone: N/A
   Open: 17-Sep | Close: 21-Sep | Refund: 23-Sep | Listing: 24-Sep
 
