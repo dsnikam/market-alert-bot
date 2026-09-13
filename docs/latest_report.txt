@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 13 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 14 Sep 2026*
 
 *Pranav Constructions IPO*
   InvestorGain: 36.29%
@@ -46,7 +46,7 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: 10.07%
+  InvestorGain: 10.79%
   InvestorZone: 10.07%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
