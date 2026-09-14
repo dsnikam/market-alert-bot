@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 14 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 15 Sep 2026*
 
 *Pranav Constructions IPO*
   InvestorGain: N/A
@@ -46,12 +46,12 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: 11.51%
+  InvestorGain: 11.87%
   InvestorZone: 10.07%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
-  InvestorGain: 16.43%
+  InvestorGain: 14.29%
   InvestorZone: 17.86%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
@@ -71,7 +71,7 @@
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Hero Motors IPO*
-  InvestorGain: 28.57%
+  InvestorGain: 27.38%
   InvestorZone: 9.52%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
