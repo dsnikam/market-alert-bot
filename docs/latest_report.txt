@@ -56,7 +56,7 @@
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
 *Manika Plastech IPO*
-  InvestorGain: 9.30%
+  InvestorGain: 6.98%
   InvestorZone: 25.58%
   Open: 11-Sep | Close: 16-Sep | Refund: 18-Sep | Listing: 21-Sep
 
@@ -84,10 +84,5 @@
   InvestorGain: N/A
   InvestorZone: 11.65%
   Open: 2026-09-17 | Close: 2026-09-21 | Refund: 23-Sep | Listing: 2026-09-24
-
-*NSE IPO*
-  InvestorGain: 10.03%
-  InvestorZone: N/A
-  Open: 17-Sep | Close: 21-Sep | Refund: 23-Sep | Listing: 24-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
