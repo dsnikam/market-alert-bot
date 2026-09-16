@@ -21,7 +21,7 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Rentomojo IPO*
-  InvestorGain: 24.75%
+  InvestorGain: 25.50%
   InvestorZone: 33.42%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
@@ -36,48 +36,38 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Steamhouse IPO*
-  InvestorGain: 19.75%
+  InvestorGain: 18.52%
   InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: 7.19%
+  InvestorGain: 6.47%
   InvestorZone: 10.07%
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
-  InvestorGain: 7.14%
+  InvestorGain: 4.29%
   InvestorZone: 14.29%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
-
-*Manika Plastech IPO*
-  InvestorGain: 6.98%
-  InvestorZone: 25.58%
-  Open: 11-Sep | Close: 16-Sep | Refund: 18-Sep | Listing: 21-Sep
-
-*SS Retail IPO*
-  InvestorGain: 25.94%
-  InvestorZone: 34.2%
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
-*Jindal Supreme IPO*
-  InvestorGain: 29.03%
-  InvestorZone: N/A
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Jindal Supreme (India) IPO*
   InvestorGain: N/A
   InvestorZone: 29.03%
   Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
 
-*Hero Motors IPO*
-  InvestorGain: 15.48%
-  InvestorZone: 27.38%
+*SS Retail IPO*
+  InvestorGain: 27.12%
+  InvestorZone: 25.94%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
-*National Stock Exchange IPO (NSE)*
-  InvestorGain: N/A
-  InvestorZone: 11.65%
-  Open: 2026-09-17 | Close: 2026-09-21 | Refund: 23-Sep | Listing: 2026-09-24
+*Jindal Supreme IPO*
+  InvestorGain: 25.81%
+  InvestorZone: N/A
+  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
+
+*Hero Motors IPO*
+  InvestorGain: 14.29%
+  InvestorZone: 15.48%
+  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
