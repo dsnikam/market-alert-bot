@@ -31,18 +31,18 @@
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
-  InvestorGain: 4.29%
+  InvestorGain: 6.07%
   InvestorZone: 14.29%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
+
+*SS Retail IPO*
+  InvestorGain: 32.31%
+  InvestorZone: 18.87%
+  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Jindal Supreme IPO*
   InvestorGain: 32.26%
   InvestorZone: N/A
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
-*SS Retail IPO*
-  InvestorGain: 30.19%
-  InvestorZone: 18.87%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Jindal Supreme (India) IPO*
@@ -51,7 +51,7 @@
   Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
 
 *Hero Motors IPO*
-  InvestorGain: 7.74%
+  InvestorGain: 6.55%
   InvestorZone: 15.48%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
