@@ -20,54 +20,44 @@
   InvestorZone: 27.17%
   Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
 
-*LCC Projects IPOLT*
-  InvestorGain: 24.66%
-  InvestorZone: N/A
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
-
-*Rentomojo IPOLT*
-  InvestorGain: 21.29%
-  InvestorZone: N/A
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
-
-*Karamtara Engineering IPOLT*
-  InvestorGain: 18.90%
-  InvestorZone: N/A
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
-
-*Steamhouse IPOLT*
+*Steamhouse IPO*
   InvestorGain: 16.67%
   InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: N/A
+  InvestorGain: 8.63%
   InvestorZone: 10.07%
-  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Veegaland Developers IPO*
-  InvestorGain: 3.57%
+  InvestorGain: 4.29%
   InvestorZone: 14.29%
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
-*Jindal Supreme (India) IPO*
-  InvestorGain: N/A
-  InvestorZone: 29.03%
-  Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
-
 *Jindal Supreme IPO*
-  InvestorGain: 26.88%
+  InvestorGain: 30.11%
   InvestorZone: N/A
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *SS Retail IPO*
-  InvestorGain: 18.87%
-  InvestorZone: 25.94%
+  InvestorGain: 29.25%
+  InvestorZone: 18.87%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
+*Jindal Supreme (India) IPO*
+  InvestorGain: N/A
+  InvestorZone: 26.88%
+  Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
+
 *Hero Motors IPO*
-  InvestorGain: 15.48%
+  InvestorGain: 3.57%
   InvestorZone: 15.48%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
+
+*A-One Steels IPO*
+  InvestorGain: 13.09%
+  InvestorZone: N/A
+  Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
