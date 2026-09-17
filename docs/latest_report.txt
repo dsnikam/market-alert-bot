@@ -36,12 +36,12 @@
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
 *Jindal Supreme IPO*
-  InvestorGain: 30.11%
+  InvestorGain: 32.26%
   InvestorZone: N/A
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *SS Retail IPO*
-  InvestorGain: 29.25%
+  InvestorGain: 30.19%
   InvestorZone: 18.87%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
@@ -51,12 +51,12 @@
   Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
 
 *Hero Motors IPO*
-  InvestorGain: 3.57%
+  InvestorGain: 7.74%
   InvestorZone: 15.48%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *A-One Steels IPO*
-  InvestorGain: 13.09%
+  InvestorGain: 13.58%
   InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
