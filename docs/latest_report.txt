@@ -1,29 +1,14 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 17 Sep 2026*
 
-*Kanohar Electricals IPO*
-  InvestorGain: 28.80%
-  InvestorZone: 31.01%
-  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
-
-*Glass Wall Systems (India) IPO*
-  InvestorGain: N/A
-  InvestorZone: 28.02%
-  Open: 2026-09-08 | Close: 2026-09-10 | Refund: 15-Sep | Listing: 2026-09-16
-
-*Glass Wall Systems IPO*
-  InvestorGain: 21.43%
-  InvestorZone: N/A
-  Open: 8-Sep | Close: 10-Sep | Refund: 15-Sep | Listing: 16-Sep
-
 *LCC Projects IPO*
-  InvestorGain: 24.66%
+  InvestorGain: N/A
   InvestorZone: 34.93%
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
 
 *Rentomojo IPO*
-  InvestorGain: 21.29%
+  InvestorGain: N/A
   InvestorZone: 33.42%
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
 
 *Steamhouse India IPO*
   InvestorGain: N/A
@@ -31,19 +16,34 @@
   Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
 
 *Karamtara Engineering IPO*
-  InvestorGain: 18.90%
+  InvestorGain: N/A
   InvestorZone: 27.17%
+  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
+
+*LCC Projects IPOLT*
+  InvestorGain: 24.66%
+  InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
-*Steamhouse IPO*
+*Rentomojo IPOLT*
+  InvestorGain: 21.29%
+  InvestorZone: N/A
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+
+*Karamtara Engineering IPOLT*
+  InvestorGain: 18.90%
+  InvestorZone: N/A
+  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+
+*Steamhouse IPOLT*
   InvestorGain: 16.67%
   InvestorZone: N/A
   Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
 
 *Asset Reconstruction IPO*
-  InvestorGain: 8.63%
+  InvestorGain: N/A
   InvestorZone: 10.07%
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
+  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
 
 *Veegaland Developers IPO*
   InvestorGain: 3.57%
@@ -61,7 +61,7 @@
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *SS Retail IPO*
-  InvestorGain: 21.23%
+  InvestorGain: 18.87%
   InvestorZone: 25.94%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
