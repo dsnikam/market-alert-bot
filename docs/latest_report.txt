@@ -1,33 +1,33 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 18 Sep 2026*
 
 *Veegaland Developers IPO*
-  InvestorGain: N/A
+  InvestorGain: 5.71%
   InvestorZone: 14.29%
-  Open: 2026-09-10 | Close: 2026-09-15 | Refund: 17-Sep | Listing: 2026-09-18
+  Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
+
+*SS Retail IPO*
+  InvestorGain: 33.73%
+  InvestorZone: 33.02%
+  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Jindal Supreme IPO*
   InvestorGain: 33.33%
   InvestorZone: N/A
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
-*SS Retail IPO*
-  InvestorGain: 33.02%
-  InvestorZone: 18.87%
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
 *Jindal Supreme (India) IPO*
   InvestorGain: N/A
-  InvestorZone: 26.88%
+  InvestorZone: 33.33%
   Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
 
-*Hero Motors IPO*
-  InvestorGain: 4.76%
-  InvestorZone: 15.48%
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
 *A-One Steels IPO*
-  InvestorGain: 13.58%
+  InvestorGain: 13.83%
   InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
+
+*A-One Steels India IPO*
+  InvestorGain: N/A
+  InvestorZone: 13.58%
+  Open: 2026-09-24 | Close: 2026-09-28 | Refund: 30-Sep | Listing: 2026-10-01
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
