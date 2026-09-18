@@ -1,39 +1,9 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 18 Sep 2026*
 
-*LCC Projects IPO*
-  InvestorGain: N/A
-  InvestorZone: 34.93%
-  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
-
-*Rentomojo IPO*
-  InvestorGain: N/A
-  InvestorZone: 33.42%
-  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
-
-*Steamhouse India IPO*
-  InvestorGain: N/A
-  InvestorZone: 28.4%
-  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
-
-*Karamtara Engineering IPO*
-  InvestorGain: N/A
-  InvestorZone: 27.17%
-  Open: 2026-09-09 | Close: 2026-09-11 | Refund: 16-Sep | Listing: 2026-09-17
-
-*Steamhouse IPO*
-  InvestorGain: 16.67%
-  InvestorZone: N/A
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
-
-*Asset Reconstruction IPO*
-  InvestorGain: 8.63%
-  InvestorZone: 10.07%
-  Open: 9-Sep | Close: 11-Sep | Refund: 16-Sep | Listing: 17-Sep
-
 *Veegaland Developers IPO*
-  InvestorGain: 6.07%
+  InvestorGain: N/A
   InvestorZone: 14.29%
-  Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
+  Open: 2026-09-10 | Close: 2026-09-15 | Refund: 17-Sep | Listing: 2026-09-18
 
 *SS Retail IPO*
   InvestorGain: 32.31%
