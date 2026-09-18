@@ -6,13 +6,8 @@
   Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
 
 *SS Retail IPO*
-  InvestorGain: 33.73%
+  InvestorGain: 34.20%
   InvestorZone: 33.02%
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
-*Jindal Supreme IPO*
-  InvestorGain: 33.33%
-  InvestorZone: N/A
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Jindal Supreme (India) IPO*
@@ -20,8 +15,23 @@
   InvestorZone: 33.33%
   Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
 
+*Jindal Supreme IPO*
+  InvestorGain: 27.96%
+  InvestorZone: N/A
+  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
+
+*Varmora Granito IPO*
+  InvestorGain: 10.14%
+  InvestorZone: 4.73%
+  Open: 22-Sep | Close: 24-Sep | Refund: 28-Sep | Listing: 29-Sep
+
+*Adroit Industries IPO*
+  InvestorGain: 16.42%
+  InvestorZone: N/A
+  Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
+
 *A-One Steels IPO*
-  InvestorGain: 13.83%
+  InvestorGain: 14.57%
   InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
