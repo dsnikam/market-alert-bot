@@ -1,10 +1,5 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 19 Sep 2026*
 
-*Veegaland Developers IPO*
-  InvestorGain: 5.71%
-  InvestorZone: 14.29%
-  Open: 10-Sep | Close: 15-Sep | Refund: 17-Sep | Listing: 18-Sep
-
 *SS Retail IPO*
   InvestorGain: 34.20%
   InvestorZone: 33.02%
