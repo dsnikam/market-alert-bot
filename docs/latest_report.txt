@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 19 Sep 2026*
 
 *SS Retail IPO*
-  InvestorGain: 34.20%
+  InvestorGain: 33.73%
   InvestorZone: 33.02%
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
@@ -21,12 +21,12 @@
   Open: 22-Sep | Close: 24-Sep | Refund: 28-Sep | Listing: 29-Sep
 
 *Adroit Industries IPO*
-  InvestorGain: 27.61%
+  InvestorGain: 29.85%
   InvestorZone: N/A
   Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
 
 *A-One Steels IPO*
-  InvestorGain: 14.81%
+  InvestorGain: 15.31%
   InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
