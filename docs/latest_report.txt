@@ -16,7 +16,7 @@
   Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
 
 *Adroit Industries IPO*
-  InvestorGain: 25.37%
+  InvestorGain: 26.12%
   InvestorZone: N/A
   Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
 
@@ -31,7 +31,7 @@
   Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
 
 *Moneyview IPO*
-  InvestorGain: 32.35%
+  InvestorGain: 36.76%
   InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
@@ -46,12 +46,12 @@
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
 *Orient Cables IPO*
-  InvestorGain: 12.50%
+  InvestorGain: 14.71%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
 *German Green Steel IPO*
-  InvestorGain: 10.79%
+  InvestorGain: 13.67%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
