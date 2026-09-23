@@ -7,6 +7,16 @@ import requests
 BASE = "https://investorzone.in/api"
 ACTIVE_STATUSES = "UPCOMING,ANALYSIS_PENDING,UNDER_REVIEW,READY,LIVE"
 
+# The GMP lookup is batched because passing every active IPO's id in one giant
+# ipo_id__in=... query string eventually exceeds the server's max URL length
+# (414 URI Too Long) as the active list grows over time.
+BATCH_SIZE = 25
+
+
+def _chunk(items, size):
+    for i in range(0, len(items), size):
+        yield items[i:i + size]
+
 
 def fetch_investorzone():
     # 1) Get active IPOs (not yet listed / currently trading in grey market)
@@ -23,20 +33,20 @@ def fetch_investorzone():
 
     ipo_ids = [ipo["id"] for ipo in ipos]
 
-    # 2) Get latest GMP value for those IPOs (order desc so first hit per id = latest)
-    gmp_url = (
-        f"{BASE}/ipo_gmp?ipo_id__in={','.join(ipo_ids)}"
-        "&order=created_at.desc&limit=1000&select=ipo_id,gmp_value,created_at"
-    )
-    r2 = requests.get(gmp_url, timeout=20)
-    r2.raise_for_status()
-    gmp_rows = r2.json().get("data", [])
-
+    # 2) Get latest GMP value for those IPOs, in batches (order desc so first
+    # occurrence per id within each batch = that IPO's latest value)
     latest_gmp = {}
-    for row in gmp_rows:
-        iid = row["ipo_id"]
-        if iid not in latest_gmp:  # first occurrence = most recent (desc order)
-            latest_gmp[iid] = row["gmp_value"]
+    for batch in _chunk(ipo_ids, BATCH_SIZE):
+        gmp_url = (
+            f"{BASE}/ipo_gmp?ipo_id__in={','.join(batch)}"
+            "&order=created_at.desc&limit=1000&select=ipo_id,gmp_value,created_at"
+        )
+        r2 = requests.get(gmp_url, timeout=20)
+        r2.raise_for_status()
+        for row in r2.json().get("data", []):
+            iid = row["ipo_id"]
+            if iid not in latest_gmp:  # first occurrence = most recent (desc order)
+                latest_gmp[iid] = row["gmp_value"]
 
     results = []
     for ipo in ipos:
