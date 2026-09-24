@@ -1,20 +1,5 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 24 Sep 2026*
 
-*SS Retail IPO*
-  InvestorGain: 37.74%
-  InvestorZone: 33.02%
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
-*Jindal Supreme (India) IPO*
-  InvestorGain: N/A
-  InvestorZone: 33.33%
-  Open: 2026-09-16 | Close: 2026-09-18 | Refund: 22-Sep | Listing: 2026-09-23
-
-*Jindal Supreme IPO*
-  InvestorGain: 31.18%
-  InvestorZone: N/A
-  Open: 16-Sep | Close: 18-Sep | Refund: 22-Sep | Listing: 23-Sep
-
 *Adroit Industries IPO*
   InvestorGain: 25.37%
   InvestorZone: N/A
