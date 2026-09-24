@@ -1,7 +1,7 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 24 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 25 Sep 2026*
 
 *Adroit Industries IPO*
-  InvestorGain: 25.37%
+  InvestorGain: 27.61%
   InvestorZone: N/A
   Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
 
@@ -16,7 +16,7 @@
   Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
 
 *Moneyview IPO*
-  InvestorGain: 37.50%
+  InvestorGain: 45.59%
   InvestorZone: 41.18%
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
@@ -26,17 +26,17 @@
   Open: 2026-09-24 | Close: 2026-09-28 | Refund: 30-Sep | Listing: 2026-10-01
 
 *A-One Steels IPO*
-  InvestorGain: 11.85%
+  InvestorGain: 12.10%
   InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
 *Orient Cables IPO*
-  InvestorGain: 21.32%
+  InvestorGain: 41.54%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
 *German Green Steel IPO*
-  InvestorGain: 20.50%
+  InvestorGain: 20.86%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
@@ -49,5 +49,15 @@
   InvestorGain: N/A
   InvestorZone: 16.54%
   Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
+
+*Runwal Enterprises IPO*
+  InvestorGain: 12.13%
+  InvestorZone: 5.57%
+  Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
+
+*SRIT India IPO*
+  InvestorGain: 16.15%
+  InvestorZone: N/A
+  Open: 28-Sep | Close: 30-Sep | Refund: 05-Oct | Listing: 6-Oct
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
