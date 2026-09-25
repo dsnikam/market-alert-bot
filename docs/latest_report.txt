@@ -1,63 +1,53 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 25 Sep 2026*
 
-*Adroit Industries IPO*
-  InvestorGain: 27.61%
-  InvestorZone: N/A
-  Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
-
 *Adroit Industries (India) IPO*
   InvestorGain: N/A
-  InvestorZone: 25.37%
+  InvestorZone: 27.61%
   Open: 2026-09-23 | Close: 2026-09-25 | Refund: 29-Sep | Listing: 2026-09-30
 
-*ArMee Infotech IPO*
-  InvestorGain: 5.33%
-  InvestorZone: 13.6%
+*Adroit Industries IPO*
+  InvestorGain: 24.63%
+  InvestorZone: N/A
   Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
 
 *Moneyview IPO*
   InvestorGain: 45.59%
-  InvestorZone: 41.18%
+  InvestorZone: 45.59%
+  Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
+
+*A-One Steels IPO*
+  InvestorGain: 12.35%
+  InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
 *A-One Steels India IPO*
   InvestorGain: N/A
-  InvestorZone: 13.58%
+  InvestorZone: 12.1%
   Open: 2026-09-24 | Close: 2026-09-28 | Refund: 30-Sep | Listing: 2026-10-01
-
-*A-One Steels IPO*
-  InvestorGain: 12.10%
-  InvestorZone: N/A
-  Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
 *Orient Cables IPO*
   InvestorGain: 41.54%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
-*German Green Steel IPO*
-  InvestorGain: 20.86%
-  InvestorZone: N/A
-  Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
+*Orient Cables (India) IPO*
+  InvestorGain: N/A
+  InvestorZone: 41.54%
+  Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
 
 *German Green Steel & Power IPO*
   InvestorGain: N/A
-  InvestorZone: 17.27%
+  InvestorZone: 20.86%
   Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
 
-*Orient Cables (India) IPO*
-  InvestorGain: N/A
-  InvestorZone: 16.54%
-  Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
-
-*Runwal Enterprises IPO*
-  InvestorGain: 12.13%
-  InvestorZone: 5.57%
+*German Green Steel IPO*
+  InvestorGain: 20.14%
+  InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
 *SRIT India IPO*
   InvestorGain: 16.92%
-  InvestorZone: N/A
+  InvestorZone: 16.92%
   Open: 28-Sep | Close: 30-Sep | Refund: 05-Oct | Listing: 6-Oct
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
