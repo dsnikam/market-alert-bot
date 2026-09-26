@@ -1,7 +1,7 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 26 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 27 Sep 2026*
 
 *Adroit Industries IPO*
-  InvestorGain: 39.55%
+  InvestorGain: 39.93%
   InvestorZone: N/A
   Open: 23-Sep | Close: 25-Sep | Refund: 29-Sep | Listing: 30-Sep
 
@@ -16,7 +16,7 @@
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
 *A-One Steels IPO*
-  InvestorGain: 13.33%
+  InvestorGain: 13.83%
   InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
@@ -31,7 +31,7 @@
   Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
 
 *Orient Cables IPO*
-  InvestorGain: 31.25%
+  InvestorGain: 31.62%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
