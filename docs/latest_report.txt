@@ -41,7 +41,7 @@
   Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
 
 *German Green Steel IPO*
-  InvestorGain: 18.71%
+  InvestorGain: 17.99%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
