@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 27 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 28 Sep 2026*
 
 *Adroit Industries IPO*
   InvestorGain: 43.28%
@@ -35,15 +35,15 @@
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
+*German Green Steel IPO*
+  InvestorGain: 20.86%
+  InvestorZone: N/A
+  Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
+
 *German Green Steel & Power IPO*
   InvestorGain: N/A
   InvestorZone: 20.86%
   Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
-
-*German Green Steel IPO*
-  InvestorGain: 20.14%
-  InvestorZone: N/A
-  Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
 *SRIT India IPO*
   InvestorGain: 25.38%
