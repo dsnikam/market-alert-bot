@@ -31,7 +31,7 @@
   Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
 
 *Orient Cables IPO*
-  InvestorGain: 31.62%
+  InvestorGain: 33.09%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
