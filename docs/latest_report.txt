@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 29 Sep 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 30 Sep 2026*
 
 *Adroit Industries IPO*
   InvestorGain: 41.04%
@@ -11,7 +11,7 @@
   Open: 2026-09-23 | Close: 2026-09-25 | Refund: 29-Sep | Listing: 2026-09-30
 
 *Moneyview IPO*
-  InvestorGain: 36.76%
+  InvestorGain: 35.29%
   InvestorZone: 41.18%
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
