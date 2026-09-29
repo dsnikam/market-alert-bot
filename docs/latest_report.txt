@@ -11,7 +11,7 @@
   Open: 2026-09-23 | Close: 2026-09-25 | Refund: 29-Sep | Listing: 2026-09-30
 
 *Moneyview IPO*
-  InvestorGain: 37.50%
+  InvestorGain: 36.76%
   InvestorZone: 41.18%
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
@@ -36,12 +36,12 @@
   Open: 2026-09-28 | Close: 2026-09-30 | Refund: 05-Oct | Listing: 2026-10-05
 
 *SRIT India IPO*
-  InvestorGain: 17.69%
+  InvestorGain: 23.85%
   InvestorZone: 25.38%
   Open: 28-Sep | Close: 30-Sep | Refund: 05-Oct | Listing: 6-Oct
 
 *Nityas Gems & Jewellery IPO*
-  InvestorGain: 12.00%
+  InvestorGain: 6.67%
   InvestorZone: 12.0%
   Open: 30-Sep | Close: 5-Oct | Refund: 07-Oct | Listing: 8-Oct
 
