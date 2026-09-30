@@ -11,7 +11,7 @@
   Open: 2026-09-23 | Close: 2026-09-25 | Refund: 29-Sep | Listing: 2026-09-30
 
 *Moneyview IPO*
-  InvestorGain: 35.29%
+  InvestorGain: 38.97%
   InvestorZone: 41.18%
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
@@ -25,23 +25,23 @@
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
+*Orient Cables (India) IPO*
+  InvestorGain: N/A
+  InvestorZone: 26.47%
+  Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
+
 *German Green Steel & Power IPO*
   InvestorGain: N/A
   InvestorZone: 17.63%
   Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
 
-*Orient Cables (India) IPO*
-  InvestorGain: N/A
-  InvestorZone: 26.47%
-  Open: 2026-09-28 | Close: 2026-09-30 | Refund: 05-Oct | Listing: 2026-10-05
-
 *SRIT India IPO*
-  InvestorGain: 23.85%
-  InvestorZone: 25.38%
+  InvestorGain: 25.38%
+  InvestorZone: 23.85%
   Open: 28-Sep | Close: 30-Sep | Refund: 05-Oct | Listing: 6-Oct
 
 *Nityas Gems & Jewellery IPO*
-  InvestorGain: 6.67%
+  InvestorGain: 4.00%
   InvestorZone: 12.0%
   Open: 30-Sep | Close: 5-Oct | Refund: 07-Oct | Listing: 8-Oct
 
