@@ -1,27 +1,22 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 01 Oct 2026*
 
-*Moneyview IPOLT*
-  InvestorGain: 42.94%
-  InvestorZone: N/A
-  Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
-
 *Moneyview IPO*
-  InvestorGain: N/A
+  InvestorGain: 42.65%
   InvestorZone: 41.18%
-  Open: 2026-09-24 | Close: 2026-09-28 | Refund: 30-Sep | Listing: 2026-10-01
+  Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
 *A-One Steels India IPO*
   InvestorGain: N/A
   InvestorZone: 13.83%
   Open: 2026-09-24 | Close: 2026-09-28 | Refund: 30-Sep | Listing: 2026-10-01
 
-*A-One Steels IPOLT*
-  InvestorGain: 11.60%
+*A-One Steels IPO*
+  InvestorGain: 11.36%
   InvestorZone: N/A
   Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
 
 *Orient Cables IPO*
-  InvestorGain: 33.09%
+  InvestorGain: 38.60%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
@@ -42,12 +37,7 @@
 
 *Vishal Nirmiti IPO*
   InvestorGain: 15.91%
-  InvestorZone: 2.73%
-  Open: 30-Sep | Close: 5-Oct | Refund: 07-Oct | Listing: 8-Oct
-
-*Nityas Gems & Jewellery IPO*
-  InvestorGain: 6.67%
-  InvestorZone: 12.0%
+  InvestorZone: 15.91%
   Open: 30-Sep | Close: 5-Oct | Refund: 07-Oct | Listing: 8-Oct
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
