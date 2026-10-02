@@ -1,20 +1,5 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 02 Oct 2026*
 
-*Moneyview IPO*
-  InvestorGain: 42.65%
-  InvestorZone: 41.18%
-  Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
-
-*A-One Steels India IPO*
-  InvestorGain: N/A
-  InvestorZone: 13.83%
-  Open: 2026-09-24 | Close: 2026-09-28 | Refund: 30-Sep | Listing: 2026-10-01
-
-*A-One Steels IPO*
-  InvestorGain: 11.36%
-  InvestorZone: N/A
-  Open: 24-Sep | Close: 28-Sep | Refund: 30-Sep | Listing: 1-Oct
-
 *Orient Cables IPO*
   InvestorGain: 39.34%
   InvestorZone: N/A
