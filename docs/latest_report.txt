@@ -1,7 +1,7 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 03 Oct 2026*
 
 *Orient Cables IPO*
-  InvestorGain: 44.12%
+  InvestorGain: 40.81%
   InvestorZone: N/A
   Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
 
