@@ -1,20 +1,5 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 06 Oct 2026*
 
-*Orient Cables IPO*
-  InvestorGain: 40.44%
-  InvestorZone: N/A
-  Open: 25-Sep | Close: 29-Sep | Refund: 01-Oct | Listing: 5-Oct
-
-*Orient Cables (India) IPO*
-  InvestorGain: N/A
-  InvestorZone: 26.47%
-  Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
-
-*German Green Steel & Power IPO*
-  InvestorGain: N/A
-  InvestorZone: 17.63%
-  Open: 2026-09-25 | Close: 2026-09-29 | Refund: 01-Oct | Listing: 2026-10-05
-
 *SRIT India IPO*
   InvestorGain: 47.69%
   InvestorZone: 23.85%
