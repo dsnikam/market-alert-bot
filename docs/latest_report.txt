@@ -1,13 +1,3 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 07 Oct 2026*
 
-*SRIT India IPO*
-  InvestorGain: 45.38%
-  InvestorZone: 23.85%
-  Open: 28-Sep | Close: 30-Sep | Refund: 05-Oct | Listing: 6-Oct
-
-*Shah Investor's Home IPO*
-  InvestorGain: 10.18%
-  InvestorZone: 8.98%
-  Open: 28-Sep | Close: 30-Sep | Refund: 05-Oct | Listing: 6-Oct
-
-_Source: investorgain.com, investorzone.in — informational only, not investment advice._
+No active mainboard IPOs with GMP above 10% right now.
