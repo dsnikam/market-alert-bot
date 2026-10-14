@@ -2,37 +2,37 @@
 
 *HD Fire Protect IPO*
   InvestorGain: 33.58%
-  InvestorZone: 31.37%
+  InvestorZone: 33.58%
   Open: 13-Oct | Close: 15-Oct | Refund: 19-Oct | Listing: 21-Oct
 
 *Fusion CX IPO*
-  InvestorGain: 10.73%
-  InvestorZone: 5.19%
+  InvestorGain: 11.42%
+  InvestorZone: 10.73%
   Open: 14-Oct | Close: 16-Oct | Refund: 21-Oct | Listing: 22-Oct
 
 *Tonbo Imaging India IPO*
-  InvestorGain: 70.00%
-  InvestorZone: 63.57%
+  InvestorGain: 71.43%
+  InvestorZone: 70.0%
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 *Bonfiglioli Transmissions IPO*
-  InvestorGain: 29.86%
-  InvestorZone: 26.45%
-  Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
-
-*Zetwerk IPO*
-  InvestorGain: 15.23%
-  InvestorZone: N/A
-  Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
-
-*Sahajanand Medical Technologies IPO*
-  InvestorGain: 11.92%
-  InvestorZone: 8.72%
+  InvestorGain: 31.06%
+  InvestorZone: 29.86%
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 *Zetwerk Manufacturing Business IPO*
   InvestorGain: N/A
-  InvestorZone: 10.6%
+  InvestorZone: 15.23%
   Open: 2026-10-15 | Close: 2026-10-19 | Refund: 22-Oct | Listing: 2026-10-23
+
+*Zetwerk IPO*
+  InvestorGain: 11.92%
+  InvestorZone: N/A
+  Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
+
+*Sahajanand Medical Technologies IPO*
+  InvestorGain: 10.47%
+  InvestorZone: 11.92%
+  Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
