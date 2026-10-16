@@ -1,7 +1,7 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 16 Oct 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 17 Oct 2026*
 
 *HD Fire Protect IPO*
-  InvestorGain: 28.78%
+  InvestorGain: 28.41%
   InvestorZone: 32.84%
   Open: 13-Oct | Close: 15-Oct | Refund: 19-Oct | Listing: 21-Oct
 
@@ -26,7 +26,7 @@
   Open: 2026-10-15 | Close: 2026-10-19 | Refund: 22-Oct | Listing: 2026-10-23
 
 *Sahajanand Medical Technologies IPO*
-  InvestorGain: 9.88%
+  InvestorGain: 10.17%
   InvestorZone: 11.92%
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
