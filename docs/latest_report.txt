@@ -6,12 +6,12 @@
   Open: 13-Oct | Close: 15-Oct | Refund: 19-Oct | Listing: 21-Oct
 
 *Fusion CX IPO*
-  InvestorGain: 3.11%
+  InvestorGain: 3.46%
   InvestorZone: 11.42%
   Open: 14-Oct | Close: 16-Oct | Refund: 21-Oct | Listing: 22-Oct
 
 *Tonbo Imaging India IPO*
-  InvestorGain: 71.43%
+  InvestorGain: 73.71%
   InvestorZone: 71.43%
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
@@ -26,17 +26,17 @@
   Open: 2026-10-15 | Close: 2026-10-19 | Refund: 22-Oct | Listing: 2026-10-23
 
 *Sahajanand Medical Technologies IPO*
-  InvestorGain: 11.05%
+  InvestorGain: 9.88%
   InvestorZone: 11.92%
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 *Jio Platforms IPO*
-  InvestorGain: 19.57%
+  InvestorGain: 19.75%
   InvestorZone: N/A
   Open: 21-Oct | Close: 23-Oct | Refund: 27-Oct | Listing: 28-Oct
 
 *Paras Healthcare IPO*
-  InvestorGain: 14.00%
+  InvestorGain: 13.71%
   InvestorZone: N/A
   Open: 21-Oct | Close: 23-Oct | Refund: 27-Oct | Listing: 28-Oct
 
