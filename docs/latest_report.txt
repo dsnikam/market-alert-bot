@@ -6,12 +6,12 @@
   Open: 13-Oct | Close: 15-Oct | Refund: 19-Oct | Listing: 21-Oct
 
 *Fusion CX IPO*
-  InvestorGain: 3.46%
+  InvestorGain: 3.63%
   InvestorZone: 11.42%
   Open: 14-Oct | Close: 16-Oct | Refund: 21-Oct | Listing: 22-Oct
 
 *Tonbo Imaging India IPO*
-  InvestorGain: 73.71%
+  InvestorGain: 73.57%
   InvestorZone: 71.43%
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
@@ -31,7 +31,7 @@
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 *Jio Platforms IPO*
-  InvestorGain: 19.75%
+  InvestorGain: 19.66%
   InvestorZone: N/A
   Open: 21-Oct | Close: 23-Oct | Refund: 27-Oct | Listing: 28-Oct
 
