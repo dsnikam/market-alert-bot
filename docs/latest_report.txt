@@ -1,12 +1,12 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 17 Oct 2026*
 
 *HD Fire Protect IPO*
-  InvestorGain: 24.35%
+  InvestorGain: 25.46%
   InvestorZone: 32.84%
   Open: 13-Oct | Close: 15-Oct | Refund: 19-Oct | Listing: 21-Oct
 
 *Fusion CX IPO*
-  InvestorGain: 4.50%
+  InvestorGain: 5.19%
   InvestorZone: 11.42%
   Open: 14-Oct | Close: 16-Oct | Refund: 21-Oct | Listing: 22-Oct
 
@@ -26,12 +26,12 @@
   Open: 2026-10-15 | Close: 2026-10-19 | Refund: 22-Oct | Listing: 2026-10-23
 
 *Sahajanand Medical Technologies IPO*
-  InvestorGain: 4.94%
+  InvestorGain: 4.36%
   InvestorZone: 11.92%
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 *Jio Platforms IPO*
-  InvestorGain: 19.75%
+  InvestorGain: 19.93%
   InvestorZone: N/A
   Open: 21-Oct | Close: 23-Oct | Refund: 27-Oct | Listing: 28-Oct
 
