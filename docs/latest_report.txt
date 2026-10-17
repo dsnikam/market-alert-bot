@@ -1,4 +1,4 @@
-*IPO GMP Report (Mainboard, GMP > 10%) — 17 Oct 2026*
+*IPO GMP Report (Mainboard, GMP > 10%) — 18 Oct 2026*
 
 *HD Fire Protect IPO*
   InvestorGain: 25.46%
@@ -31,7 +31,7 @@
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 *Jio Platforms IPO*
-  InvestorGain: 19.93%
+  InvestorGain: 21.00%
   InvestorZone: N/A
   Open: 21-Oct | Close: 23-Oct | Refund: 27-Oct | Listing: 28-Oct
 
