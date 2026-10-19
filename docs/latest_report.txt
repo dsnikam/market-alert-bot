@@ -1,12 +1,12 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 19 Oct 2026*
 
 *HD Fire Protect IPO*
-  InvestorGain: 23.99%
+  InvestorGain: 22.51%
   InvestorZone: 32.84%
   Open: 13-Oct | Close: 15-Oct | Refund: 19-Oct | Listing: 21-Oct
 
 *Fusion CX IPO*
-  InvestorGain: 6.23%
+  InvestorGain: 5.54%
   InvestorZone: 11.42%
   Open: 14-Oct | Close: 16-Oct | Refund: 21-Oct | Listing: 22-Oct
 
@@ -16,22 +16,22 @@
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 *Bonfiglioli Transmissions IPO*
-  InvestorGain: 16.21%
+  InvestorGain: 21.67%
   InvestorZone: 21.33%
   Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
 
 *Jio Platforms IPO*
-  InvestorGain: 22.52%
+  InvestorGain: 22.61%
   InvestorZone: 22.43%
   Open: 21-Oct | Close: 23-Oct | Refund: 27-Oct | Listing: 28-Oct
 
 *Paras Healthcare IPO*
-  InvestorGain: 12.55%
+  InvestorGain: 12.12%
   InvestorZone: 13.28%
   Open: 21-Oct | Close: 23-Oct | Refund: 27-Oct | Listing: 28-Oct
 
 *BLS Polymers IPO*
-  InvestorGain: 13.33%
+  InvestorGain: 20.00%
   InvestorZone: N/A
   Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
 
