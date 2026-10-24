@@ -1,15 +1,5 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 24 Oct 2026*
 
-*Tonbo Imaging India IPO*
-  InvestorGain: 64.57%
-  InvestorZone: 73.29%
-  Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
-
-*Bonfiglioli Transmissions IPO*
-  InvestorGain: 11.26%
-  InvestorZone: 23.04%
-  Open: 15-Oct | Close: 19-Oct | Refund: 22-Oct | Listing: 23-Oct
-
 *Jio Platforms IPO*
   InvestorGain: 22.34%
   InvestorZone: 21.89%
