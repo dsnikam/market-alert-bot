@@ -1,18 +1,23 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 26 Oct 2026*
 
 *Jio Platforms IPO*
-  InvestorGain: 22.25%
+  InvestorGain: 22.16%
   InvestorZone: 22.16%
   Open: 21-Oct | Close: 23-Oct | Refund: 27-Oct | Listing: 28-Oct
 
 *BLS Polymers IPO*
-  InvestorGain: 25.33%
+  InvestorGain: 28.00%
   InvestorZone: 25.33%
   Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
 
 *SFC Environmental Technologies IPO*
-  InvestorGain: 8.48%
+  InvestorGain: 8.18%
   InvestorZone: 10.67%
   Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
+
+*Bombay Coated and Special Steels IPO*
+  InvestorGain: 10.98%
+  InvestorZone: N/A
+  Open: 29-Oct | Close: 2-Nov | Refund: 04-Nov | Listing: 5-Nov
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
