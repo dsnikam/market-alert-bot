@@ -1,12 +1,12 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 29 Oct 2026*
 
 *BLS Polymers IPO*
-  InvestorGain: 34.00%
+  InvestorGain: 47.33%
   InvestorZone: 25.33%
   Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
 
 *SFC Environmental Technologies IPO*
-  InvestorGain: 2.73%
+  InvestorGain: 6.36%
   InvestorZone: 10.67%
   Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
 
