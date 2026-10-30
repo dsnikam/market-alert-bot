@@ -300,13 +300,16 @@ def format_html_report(entries, min_gmp_pct=15):
         iw = e.get("iw_gmp_pct") or "N/A"
         closed_class = " closed" if is_closed(e) else ""
         closed_tag = '<span class="closed-tag">CLOSED</span>' if is_closed(e) else ""
-        sub_line = ""
+        retail_block = ""
         if e.get("ig_retail_sub") or e.get("iw_retail_sub"):
-            sub_line = (
-                '<div class="sub-row">Retail Sub — '
-                f'IG: <b>{e.get("ig_retail_sub") or "N/A"}</b> &nbsp;·&nbsp; '
-                f'IW: <b>{e.get("iw_retail_sub") or "N/A"}</b></div>'
-            )
+            ig_sub = e.get("ig_retail_sub") or "N/A"
+            iw_sub = e.get("iw_retail_sub") or "N/A"
+            retail_block = f"""
+              <div class="sources-caption">Retail Sub</div>
+              <div class="sources">
+                <div class="src"><span class="src-label">IG</span><span class="src-val">{ig_sub}</span></div>
+                <div class="src"><span class="src-label">IW</span><span class="src-val">{iw_sub}</span></div>
+              </div>"""
         cards += f"""
         <div class="slip{closed_class}">
           <div class="perf"></div>
@@ -319,7 +322,6 @@ def format_html_report(entries, min_gmp_pct=15):
                 <span><b>Refund</b> {e.get('refund') or '—'}</span>
                 <span><b>Listing</b> {e.get('listing') or '—'}</span>
               </div>
-              {sub_line}
             </div>
             <div class="slip-gmp">
               <div class="stamp">{stamp(e)}</div>
@@ -327,6 +329,7 @@ def format_html_report(entries, min_gmp_pct=15):
                 <div class="src"><span class="src-label">IG</span><span class="src-val">{ig}</span></div>
                 <div class="src"><span class="src-label">IW</span><span class="src-val">{iw}</span></div>
               </div>
+              {retail_block}
             </div>
           </div>
         </div>"""
@@ -465,6 +468,14 @@ def format_html_report(entries, min_gmp_pct=15):
     opacity: 0.88;
   }}
   .sources {{ display: flex; gap: 8px; }}
+  .sources-caption {{
+    font-size: 0.6rem;
+    color: #7a7256;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }}
   .src {{
     display: flex;
     flex-direction: column;
