@@ -1,18 +1,13 @@
 *IPO GMP Report (Mainboard, GMP > 10%) — 30 Oct 2026*
 
 *BLS Polymers IPO*
-  InvestorGain: 48.67%
+  InvestorGain: 47.00%
   InvestorZone: 25.33%
   Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
 
 *SFC Environmental Technologies IPO*
-  InvestorGain: 6.36%
+  InvestorGain: 6.06%
   InvestorZone: 10.67%
   Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
-
-*Bombay Coated and Special Steels IPO*
-  InvestorGain: 10.37%
-  InvestorZone: N/A
-  Open: 29-Oct | Close: 2-Nov | Refund: 04-Nov | Listing: 5-Nov
 
 _Source: investorgain.com, investorzone.in — informational only, not investment advice._
