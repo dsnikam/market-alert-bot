@@ -1,16 +1,16 @@
 """
-Merges IPO GMP data from InvestorGain + InvestorZone (matched by name, kept
-separately so you can cross-check them), filters to mainboard IPOs only, and
-formats both a plain-text report (Telegram/WhatsApp) and a styled HTML report
-(the bookmarkable webpage).
+Merges IPO GMP data from InvestorGain + IPOWatch (matched by name, kept
+separately so you can cross-check them), filters to mainboard IPOs only,
+and formats both a plain-text report (Telegram/WhatsApp) and a styled HTML
+report (the bookmarkable webpage).
 """
 import re
 import os
 import json
 import requests
 from datetime import datetime, date, timezone, timedelta
-from scrape_investorgain import scrape_investorgain
-from scrape_investorzone import fetch_investorzone
+from scrape_investorgain import scrape_investorgain, scrape_investorgain_subscription
+from scrape_ipowatch import scrape_ipowatch, scrape_ipowatch_subscription
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
@@ -58,9 +58,6 @@ def _save_holiday_cache_file(year, holidays, source):
 
 
 def _fetch_live_nse_holidays(year):
-    """Tries NSE's official holiday API. Usually blocked by their anti-bot
-    protection from datacenter IPs (incl. GitHub Actions) -- returns None on
-    any failure so the caller can fall back to the hardcoded list."""
     try:
         session = requests.Session()
         session.headers.update({
@@ -84,11 +81,9 @@ def _fetch_live_nse_holidays(year):
 
 
 def _get_nse_holidays(year):
-    # 1) Already resolved earlier in this same process run
     if year in _holiday_cache:
         return _holiday_cache[year]
 
-    # 2) Cache file on disk -- only usable if its year matches what we need
     cached = _load_holiday_cache_file()
     if cached and cached["year"] == year:
         print(f"[holidays] Using cached {year} holiday list ({cached['source']}, "
@@ -96,7 +91,6 @@ def _get_nse_holidays(year):
         _holiday_cache[year] = cached["holidays"]
         return cached["holidays"]
 
-    # 3) Cache is missing or stale for this year -- attempt a live fetch
     print(f"[holidays] No cached data for {year} -- attempting live NSE fetch...")
     holidays = _fetch_live_nse_holidays(year)
     if holidays:
@@ -105,7 +99,6 @@ def _get_nse_holidays(year):
         _holiday_cache[year] = holidays
         return holidays
 
-    # 4) Live fetch failed -- fall back to a hardcoded list if we have one for this year
     if year in HARDCODED_HOLIDAYS_BY_YEAR:
         holidays = HARDCODED_HOLIDAYS_BY_YEAR[year]
         print(f"[holidays] Falling back to hardcoded {year} list ({len(holidays)} dates) -- updating cache.")
@@ -113,15 +106,23 @@ def _get_nse_holidays(year):
         _holiday_cache[year] = holidays
         return holidays
 
-    # 5) Nothing available at all -- warn loudly, don't cache, so it retries next run
     print(f"[holidays] WARNING: no holiday data available for {year} -- "
           f"add a hardcoded NSE_HOLIDAYS_{year} set in build_report.py.")
     _holiday_cache[year] = set()
     return set()
 
 
+def _add_working_days(start, n):
+    d = start
+    added = 0
+    while added < n:
+        d += timedelta(days=1)
+        if d.weekday() < 5 and d not in _get_nse_holidays(d.year):
+            added += 1
+    return d
+
+
 def _parse_date_str(d):
-    """Parses a date string in either 'YYYY-MM-DD' or 'DD-Mon' form. Returns None if unparseable."""
     if not d:
         return None
     try:
@@ -132,19 +133,7 @@ def _parse_date_str(d):
         return None
 
 
-def _add_working_days(start, n):
-    """Adds n NSE/BSE working days to start, skipping weekends and market holidays."""
-    d = start
-    added = 0
-    while added < n:
-        d += timedelta(days=1)
-        if d.weekday() < 5 and d not in _get_nse_holidays(d.year):
-            added += 1
-    return d
-
-
 def _calculate_allotment_date(close_str):
-    """Basis of Allotment is generally close date + 1 NSE/BSE working day (SEBI T+3 timeline)."""
     close_dt = _parse_date_str(close_str)
     if close_dt is None:
         return None
@@ -152,7 +141,6 @@ def _calculate_allotment_date(close_str):
 
 
 def _calculate_refund_date_from_allotment(allotment_str):
-    """Refund initiation is generally 1 NSE/BSE working day after allotment (SEBI T+3 timeline)."""
     allotment_dt = _parse_date_str(allotment_str)
     if allotment_dt is None:
         return None
@@ -160,17 +148,13 @@ def _calculate_refund_date_from_allotment(allotment_str):
 
 
 def _is_current(entry):
-    """
-    Keep IPOs up through their listing date -- i.e. drop an IPO once it has
-    actually started trading. Falls back to allotment, then close date, if
-    listing date isn't available.
-    """
+    """Keep IPOs up through their listing date (i.e. until they've actually started trading)."""
     today = date.today()
     for field in ("listing", "allotment", "close"):
         dt = _parse_date_str(entry.get(field))
         if dt is not None:
             return dt >= today
-    return True  # no dates at all -- keep rather than accidentally drop
+    return True
 
 
 def _normalize_name(name):
@@ -182,7 +166,6 @@ def _normalize_name(name):
 
 
 def _gmp_value(gmp_pct_str):
-    """Parses '21.67%' -> 21.67. Returns None if missing/unparseable."""
     if not gmp_pct_str:
         return None
     try:
@@ -192,20 +175,20 @@ def _gmp_value(gmp_pct_str):
 
 
 def _best_gmp(entry):
-    """Highest available GMP% across both sources -- used for filtering/sorting only."""
-    vals = [v for v in (_gmp_value(entry.get("ig_gmp_pct")), _gmp_value(entry.get("iz_gmp_pct"))) if v is not None]
+    vals = [v for v in (_gmp_value(entry.get("ig_gmp_pct")), _gmp_value(entry.get("iw_gmp_pct"))) if v is not None]
     return max(vals) if vals else 0
 
 
 def _sort_key(v):
-    # Ascending close date, then descending best-available GMP% within the same date
     close_dt = _parse_date_str(v.get("close")) or date.max
     return (close_dt, -_best_gmp(v))
 
 
-def build_merged_data(min_gmp_pct=10):
+def build_merged_data(min_gmp_pct=15):
     ig_data = scrape_investorgain()
-    iz_data = fetch_investorzone()
+    iw_data = scrape_ipowatch()
+    ig_sub_data = scrape_investorgain_subscription()
+    iw_sub_data = scrape_ipowatch_subscription()
 
     merged = {}
     for row in ig_data:
@@ -218,18 +201,30 @@ def build_merged_data(min_gmp_pct=10):
         merged[key]["listing"] = row.get("listing")
         merged[key]["allotment"] = row.get("allotment")  # actual published date, not calculated
 
-    for row in iz_data:
+    for row in iw_data:
         key = _normalize_name(row["name"])
         merged.setdefault(key, {"name": row["name"]})
-        merged[key]["iz_gmp_pct"] = row.get("gmp_pct")
+        merged[key]["iw_gmp_pct"] = row.get("gmp_pct")
         merged[key].setdefault("is_sme", row.get("is_sme", False))
-        merged[key].setdefault("open", row.get("open"))
-        merged[key].setdefault("close", row.get("close"))
-        merged[key].setdefault("listing", row.get("listing"))
+
+    # Retail subscription, kept separately per source so they can be cross-checked --
+    # NOT the "Sub"/Total column on InvestorGain's main GMP table (that's QIB+NII+Retail
+    # blended, not retail-specific). These come from each site's dedicated
+    # subscription report, which breaks QIB/NII/Retail out individually.
+    for row in ig_sub_data:
+        key = _normalize_name(row["name"])
+        if key in merged:
+            merged[key]["ig_retail_sub"] = row.get("retail_sub")
+
+    for row in iw_sub_data:
+        key = _normalize_name(row["name"])
+        if key in merged:
+            merged[key]["iw_retail_sub"] = row.get("retail_sub")
 
     # Allotment (internal use only, to derive refund -- not displayed): use InvestorGain's
     # actual published Basis of Allotment date when we have it; only calculate it
-    # (close + 1 working day) for InvestorZone-only entries.
+    # (close + 1 working day) for IPOWatch-only entries (no open/close from IPOWatch at all,
+    # so this will rarely trigger -- IPOWatch doesn't supply dates we use for math).
     # Refund: always calculated as 1 working day after whichever allotment date we end
     # up with, per SEBI's T+3 timeline -- there's no published "refund date" field anywhere.
     for v in merged.values():
@@ -237,20 +232,15 @@ def build_merged_data(min_gmp_pct=10):
             v["allotment"] = _calculate_allotment_date(v.get("close"))
         v["refund"] = _calculate_refund_date_from_allotment(v.get("allotment"))
 
-    # Keep only: still-current (not past allotment date), mainboard (not SME), best GMP % above threshold
     current = [
         v for v in merged.values()
-        if _is_current(v)
-        and not v.get("is_sme")
-        and _best_gmp(v) > min_gmp_pct
+        if _is_current(v) and not v.get("is_sme") and _best_gmp(v) > min_gmp_pct
     ]
     current.sort(key=_sort_key)
     return current
 
 
-
-def format_report(entries, min_gmp_pct=10):
-    """Plain-text report for Telegram / WhatsApp."""
+def format_report(entries, min_gmp_pct=15):
     today = datetime.now(timezone.utc).astimezone(IST).strftime("%d %b %Y")
     lines = [f"*IPO GMP Report (Mainboard, GMP > {min_gmp_pct}%) — {today}*", ""]
 
@@ -261,7 +251,10 @@ def format_report(entries, min_gmp_pct=10):
     for e in entries:
         lines.append(f"*{e['name']}*")
         lines.append(f"  InvestorGain: {e.get('ig_gmp_pct') or 'N/A'}")
-        lines.append(f"  InvestorZone: {e.get('iz_gmp_pct') or 'N/A'}")
+        lines.append(f"  IPOWatch: {e.get('iw_gmp_pct') or 'N/A'}")
+        if e.get("ig_retail_sub") or e.get("iw_retail_sub"):
+            lines.append(f"  Retail Sub (IG): {e.get('ig_retail_sub') or 'N/A'}")
+            lines.append(f"  Retail Sub (IW): {e.get('iw_retail_sub') or 'N/A'}")
         details = []
         if e.get("open"):
             details.append(f"Open: {e['open']}")
@@ -275,17 +268,15 @@ def format_report(entries, min_gmp_pct=10):
             lines.append("  " + " | ".join(details))
         lines.append("")
 
-    lines.append("_Source: investorgain.com, investorzone.in — informational only, not investment advice._")
+    lines.append("_Source: investorgain.com, ipowatch.in — informational only, not investment advice._")
     return "\n".join(lines)
 
 
-def format_html_report(entries, min_gmp_pct=10):
-    """Styled HTML report for the bookmarkable GitHub Pages webpage."""
+def format_html_report(entries, min_gmp_pct=15):
     now_ist = datetime.now(timezone.utc).astimezone(IST)
     generated_at = now_ist.strftime("%d %b %Y, %H:%M IST")
 
     def is_closed(entry):
-        """True once close date has passed, or it's closing today past 17:00 IST."""
         close_dt = _parse_date_str(entry.get("close"))
         if close_dt is None:
             return False
@@ -300,15 +291,22 @@ def format_html_report(entries, min_gmp_pct=10):
         return v if v is not None else -1
 
     def stamp(entry):
-        ig, iz = gmp_num(entry.get("ig_gmp_pct")), gmp_num(entry.get("iz_gmp_pct"))
-        return f"{max(ig, iz):.0f}%" if max(ig, iz) >= 0 else "N/A"
+        ig, iw = gmp_num(entry.get("ig_gmp_pct")), gmp_num(entry.get("iw_gmp_pct"))
+        return f"{max(ig, iw):.0f}%" if max(ig, iw) >= 0 else "N/A"
 
     cards = ""
     for e in entries:
         ig = e.get("ig_gmp_pct") or "N/A"
-        iz = e.get("iz_gmp_pct") or "N/A"
+        iw = e.get("iw_gmp_pct") or "N/A"
         closed_class = " closed" if is_closed(e) else ""
         closed_tag = '<span class="closed-tag">CLOSED</span>' if is_closed(e) else ""
+        sub_line = ""
+        if e.get("ig_retail_sub") or e.get("iw_retail_sub"):
+            sub_line = (
+                '<div class="sub-row">Retail Sub — '
+                f'IG: <b>{e.get("ig_retail_sub") or "N/A"}</b> &nbsp;·&nbsp; '
+                f'IW: <b>{e.get("iw_retail_sub") or "N/A"}</b></div>'
+            )
         cards += f"""
         <div class="slip{closed_class}">
           <div class="perf"></div>
@@ -321,12 +319,13 @@ def format_html_report(entries, min_gmp_pct=10):
                 <span><b>Refund</b> {e.get('refund') or '—'}</span>
                 <span><b>Listing</b> {e.get('listing') or '—'}</span>
               </div>
+              {sub_line}
             </div>
             <div class="slip-gmp">
               <div class="stamp">{stamp(e)}</div>
               <div class="sources">
                 <div class="src"><span class="src-label">IG</span><span class="src-val">{ig}</span></div>
-                <div class="src"><span class="src-label">IZ</span><span class="src-val">{iz}</span></div>
+                <div class="src"><span class="src-label">IW</span><span class="src-val">{iw}</span></div>
               </div>
             </div>
           </div>
@@ -442,6 +441,12 @@ def format_html_report(entries, min_gmp_pct=10):
     font-weight: 600;
     margin-right: 5px;
   }}
+  .sub-row {{
+    margin-top: 8px;
+    font-size: 0.75rem;
+    color: #4a4436;
+  }}
+  .sub-row b {{ color: var(--ink-black); }}
   .slip-gmp {{
     display: flex;
     flex-direction: column;
@@ -495,8 +500,8 @@ def format_html_report(entries, min_gmp_pct=10):
     </header>
     {cards}
     <footer>
-      <span class="legend">IG</span> = InvestorGain &nbsp;·&nbsp; <span class="legend">IZ</span> = InvestorZone<br>
-      Source: investorgain.com, investorzone.in — informational only, not investment advice.
+      <span class="legend">IG</span> = InvestorGain &nbsp;·&nbsp; <span class="legend">IW</span> = IPOWatch<br>
+      Source: investorgain.com, ipowatch.in — informational only, not investment advice.
     </footer>
   </div>
 </body>
