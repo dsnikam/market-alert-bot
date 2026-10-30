@@ -129,6 +129,14 @@
     opacity: 0.88;
   }
   .sources { display: flex; gap: 8px; }
+  .sources-caption {
+    font-size: 0.6rem;
+    color: #7a7256;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
   .src {
     display: flex;
     flex-direction: column;
@@ -160,7 +168,7 @@
     <header>
       <h1>IPO GMP Ledger</h1>
       <div class="sub">Mainboard · GMP above 15%</div>
-      <div class="updated">Last updated 30 Oct 2026, 22:35 IST · refreshes every 2 min</div>
+      <div class="updated">Last updated 30 Oct 2026, 22:45 IST · refreshes every 2 min</div>
     </header>
     
         <div class="slip closed">
@@ -174,13 +182,18 @@
                 <span><b>Refund</b> 02-Nov</span>
                 <span><b>Listing</b> 3-Nov</span>
               </div>
-              <div class="sub-row">Retail Sub — IG: <b>128.36x</b> &nbsp;·&nbsp; IW: <b>128.36x</b></div>
             </div>
             <div class="slip-gmp">
               <div class="stamp">47%</div>
               <div class="sources">
                 <div class="src"><span class="src-label">IG</span><span class="src-val">46.67%</span></div>
                 <div class="src"><span class="src-label">IW</span><span class="src-val">45.33%</span></div>
+              </div>
+              
+              <div class="sources-caption">Retail Sub</div>
+              <div class="sources">
+                <div class="src"><span class="src-label">IG</span><span class="src-val">128.36x</span></div>
+                <div class="src"><span class="src-label">IW</span><span class="src-val">128.36x</span></div>
               </div>
             </div>
           </div>
