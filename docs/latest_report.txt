@@ -1,7 +1,7 @@
-*IPO GMP Report (Mainboard, GMP > 15%) — 02 Nov 2026*
+*IPO GMP Report (Mainboard, GMP > 15%) — 03 Nov 2026*
 
 *BLS Polymers IPO*
-  InvestorGain: 44.67%
+  InvestorGain: 45.33%
   IPOWatch: 46.67%
   Retail Sub (IG): 128.36x
   Retail Sub (IW): 128.36x
