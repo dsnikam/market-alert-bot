@@ -1,10 +1,14 @@
 *IPO GMP Report (Mainboard, GMP > 15%) — 03 Nov 2026*
 
-*BLS Polymers IPO*
+*BLS Polymers IPOLT*
   InvestorGain: 45.33%
+  IPOWatch: N/A
+  Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
+
+*BLS Polymers IPO*
+  InvestorGain: N/A
   IPOWatch: 46.67%
   Retail Sub (IG): 128.36x
   Retail Sub (IW): 128.36x
-  Open: 27-Oct | Close: 29-Oct | Refund: 02-Nov | Listing: 3-Nov
 
 _Source: investorgain.com, ipowatch.in — informational only, not investment advice._
